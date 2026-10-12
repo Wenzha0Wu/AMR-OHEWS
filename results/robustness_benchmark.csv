@@ -1,0 +1,5 @@
+dataset,seed,graph_vs_temporal,graph_vs_shuffled,shuffled_sig
+us_states,0,0.3673469387755102,-0.2653061224489796,False
+us_states,1,-0.5510204081632653,-0.08163265306122448,False
+us_states,2,-1.2653061224489797,-0.1836734693877551,False
+us_states,3,0.0,0.20408163265306123,False

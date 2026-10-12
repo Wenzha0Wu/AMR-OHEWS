@@ -1,0 +1,463 @@
+{
+  "n_series": 50,
+  "n_countries": 25,
+  "direction_test": {
+    "n_series": 50,
+    "consumption_leads_wins": 33,
+    "binomial_p_one_sided": 0.016419568782134242
+  },
+  "median_best_lag_years": 0.0,
+  "findings": [
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "CZE",
+      "n_years": 5,
+      "best_lag_years": -1,
+      "best_correlation": 0.999,
+      "max_corr_consumption_leads": 0.8,
+      "max_corr_resistance_leads": 0.999
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "NOR",
+      "n_years": 7,
+      "best_lag_years": 3,
+      "best_correlation": 0.998,
+      "max_corr_consumption_leads": 0.998,
+      "max_corr_resistance_leads": 0.509
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "NPL",
+      "n_years": 6,
+      "best_lag_years": -2,
+      "best_correlation": 0.995,
+      "max_corr_consumption_leads": 0.252,
+      "max_corr_resistance_leads": 0.995
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "SWE",
+      "n_years": 6,
+      "best_lag_years": 2,
+      "best_correlation": 0.99,
+      "max_corr_consumption_leads": 0.99,
+      "max_corr_resistance_leads": 0.227
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "RUS",
+      "n_years": 7,
+      "best_lag_years": 3,
+      "best_correlation": 0.989,
+      "max_corr_consumption_leads": 0.989,
+      "max_corr_resistance_leads": 0.498
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "MLI",
+      "n_years": 5,
+      "best_lag_years": -1,
+      "best_correlation": 0.987,
+      "max_corr_consumption_leads": 0.245,
+      "max_corr_resistance_leads": 0.987
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "MLI",
+      "n_years": 5,
+      "best_lag_years": -1,
+      "best_correlation": 0.978,
+      "max_corr_consumption_leads": -0.098,
+      "max_corr_resistance_leads": 0.978
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "ZAF",
+      "n_years": 6,
+      "best_lag_years": 2,
+      "best_correlation": 0.978,
+      "max_corr_consumption_leads": 0.978,
+      "max_corr_resistance_leads": 0.679
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "CZE",
+      "n_years": 5,
+      "best_lag_years": -1,
+      "best_correlation": 0.968,
+      "max_corr_consumption_leads": 0.396,
+      "max_corr_resistance_leads": 0.968
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "CYP",
+      "n_years": 6,
+      "best_lag_years": -2,
+      "best_correlation": 0.961,
+      "max_corr_consumption_leads": 0.677,
+      "max_corr_resistance_leads": 0.961
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "NOR",
+      "n_years": 7,
+      "best_lag_years": 1,
+      "best_correlation": 0.934,
+      "max_corr_consumption_leads": 0.934,
+      "max_corr_resistance_leads": 0.851
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "IRL",
+      "n_years": 7,
+      "best_lag_years": -3,
+      "best_correlation": 0.931,
+      "max_corr_consumption_leads": 0.462,
+      "max_corr_resistance_leads": 0.931
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "ZAF",
+      "n_years": 6,
+      "best_lag_years": 2,
+      "best_correlation": 0.916,
+      "max_corr_consumption_leads": 0.916,
+      "max_corr_resistance_leads": -0.584
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "NPL",
+      "n_years": 5,
+      "best_lag_years": -1,
+      "best_correlation": 0.916,
+      "max_corr_consumption_leads": 0.518,
+      "max_corr_resistance_leads": 0.916
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "GEO",
+      "n_years": 7,
+      "best_lag_years": -3,
+      "best_correlation": 0.909,
+      "max_corr_consumption_leads": 0.082,
+      "max_corr_resistance_leads": 0.909
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "LVA",
+      "n_years": 8,
+      "best_lag_years": -3,
+      "best_correlation": 0.909,
+      "max_corr_consumption_leads": 0.369,
+      "max_corr_resistance_leads": 0.909
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "POL",
+      "n_years": 7,
+      "best_lag_years": 2,
+      "best_correlation": 0.908,
+      "max_corr_consumption_leads": 0.908,
+      "max_corr_resistance_leads": 0.397
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "FRA",
+      "n_years": 6,
+      "best_lag_years": 1,
+      "best_correlation": 0.905,
+      "max_corr_consumption_leads": 0.905,
+      "max_corr_resistance_leads": 0.589
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "HRV",
+      "n_years": 7,
+      "best_lag_years": -2,
+      "best_correlation": 0.884,
+      "max_corr_consumption_leads": 0.827,
+      "max_corr_resistance_leads": 0.884
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "IRL",
+      "n_years": 7,
+      "best_lag_years": 0,
+      "best_correlation": 0.854,
+      "max_corr_consumption_leads": 0.287,
+      "max_corr_resistance_leads": -0.036
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "DEU",
+      "n_years": 8,
+      "best_lag_years": 0,
+      "best_correlation": 0.85,
+      "max_corr_consumption_leads": 0.609,
+      "max_corr_resistance_leads": 0.605
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "RUS",
+      "n_years": 7,
+      "best_lag_years": -3,
+      "best_correlation": 0.826,
+      "max_corr_consumption_leads": 0.534,
+      "max_corr_resistance_leads": 0.826
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "JOR",
+      "n_years": 6,
+      "best_lag_years": 1,
+      "best_correlation": 0.819,
+      "max_corr_consumption_leads": 0.819,
+      "max_corr_resistance_leads": -0.613
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "TUN",
+      "n_years": 8,
+      "best_lag_years": 1,
+      "best_correlation": 0.803,
+      "max_corr_consumption_leads": 0.803,
+      "max_corr_resistance_leads": 0.038
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "MLT",
+      "n_years": 7,
+      "best_lag_years": 3,
+      "best_correlation": 0.798,
+      "max_corr_consumption_leads": 0.798,
+      "max_corr_resistance_leads": 0.705
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "HRV",
+      "n_years": 7,
+      "best_lag_years": 3,
+      "best_correlation": 0.793,
+      "max_corr_consumption_leads": 0.793,
+      "max_corr_resistance_leads": 0.685
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "LTU",
+      "n_years": 8,
+      "best_lag_years": -3,
+      "best_correlation": 0.783,
+      "max_corr_consumption_leads": 0.721,
+      "max_corr_resistance_leads": 0.783
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "SWE",
+      "n_years": 5,
+      "best_lag_years": -1,
+      "best_correlation": 0.782,
+      "max_corr_consumption_leads": 0.416,
+      "max_corr_resistance_leads": 0.782
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "GEO",
+      "n_years": 7,
+      "best_lag_years": 1,
+      "best_correlation": 0.779,
+      "max_corr_consumption_leads": 0.779,
+      "max_corr_resistance_leads": 0.243
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "FIN",
+      "n_years": 8,
+      "best_lag_years": 3,
+      "best_correlation": 0.773,
+      "max_corr_consumption_leads": 0.773,
+      "max_corr_resistance_leads": 0.23
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "CHE",
+      "n_years": 8,
+      "best_lag_years": 1,
+      "best_correlation": 0.764,
+      "max_corr_consumption_leads": 0.764,
+      "max_corr_resistance_leads": -0.275
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "GBR",
+      "n_years": 7,
+      "best_lag_years": 0,
+      "best_correlation": 0.75,
+      "max_corr_consumption_leads": 0.053,
+      "max_corr_resistance_leads": 0.474
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "GBR",
+      "n_years": 7,
+      "best_lag_years": 0,
+      "best_correlation": 0.734,
+      "max_corr_consumption_leads": 0.595,
+      "max_corr_resistance_leads": -0.02
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "FIN",
+      "n_years": 8,
+      "best_lag_years": 0,
+      "best_correlation": 0.707,
+      "max_corr_consumption_leads": 0.466,
+      "max_corr_resistance_leads": 0.059
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "POL",
+      "n_years": 7,
+      "best_lag_years": -3,
+      "best_correlation": 0.703,
+      "max_corr_consumption_leads": 0.598,
+      "max_corr_resistance_leads": 0.703
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "AUT",
+      "n_years": 7,
+      "best_lag_years": 1,
+      "best_correlation": 0.693,
+      "max_corr_consumption_leads": 0.693,
+      "max_corr_resistance_leads": 0.357
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "FRA",
+      "n_years": 6,
+      "best_lag_years": -2,
+      "best_correlation": 0.688,
+      "max_corr_consumption_leads": 0.652,
+      "max_corr_resistance_leads": 0.688
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "DEU",
+      "n_years": 8,
+      "best_lag_years": 0,
+      "best_correlation": 0.675,
+      "max_corr_consumption_leads": 0.589,
+      "max_corr_resistance_leads": 0.166
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "ITA",
+      "n_years": 6,
+      "best_lag_years": 0,
+      "best_correlation": 0.672,
+      "max_corr_consumption_leads": 0.629,
+      "max_corr_resistance_leads": -0.59
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "MLT",
+      "n_years": 7,
+      "best_lag_years": 3,
+      "best_correlation": 0.664,
+      "max_corr_consumption_leads": 0.664,
+      "max_corr_resistance_leads": 0.594
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "ITA",
+      "n_years": 6,
+      "best_lag_years": 1,
+      "best_correlation": 0.651,
+      "max_corr_consumption_leads": 0.651,
+      "max_corr_resistance_leads": -0.544
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "AUT",
+      "n_years": 7,
+      "best_lag_years": 1,
+      "best_correlation": 0.634,
+      "max_corr_consumption_leads": 0.634,
+      "max_corr_resistance_leads": 0.388
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "LVA",
+      "n_years": 8,
+      "best_lag_years": 1,
+      "best_correlation": 0.63,
+      "max_corr_consumption_leads": 0.63,
+      "max_corr_resistance_leads": 0.516
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "LTU",
+      "n_years": 8,
+      "best_lag_years": 0,
+      "best_correlation": 0.563,
+      "max_corr_consumption_leads": 0.107,
+      "max_corr_resistance_leads": -0.06
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "JOR",
+      "n_years": 6,
+      "best_lag_years": 1,
+      "best_correlation": 0.496,
+      "max_corr_consumption_leads": 0.496,
+      "max_corr_resistance_leads": 0.084
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "TUN",
+      "n_years": 8,
+      "best_lag_years": 1,
+      "best_correlation": 0.487,
+      "max_corr_consumption_leads": 0.487,
+      "max_corr_resistance_leads": 0.411
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "CYP",
+      "n_years": 6,
+      "best_lag_years": 0,
+      "best_correlation": 0.384,
+      "max_corr_consumption_leads": 0.287,
+      "max_corr_resistance_leads": 0.113
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "LAO",
+      "n_years": 5,
+      "best_lag_years": 1,
+      "best_correlation": 0.381,
+      "max_corr_consumption_leads": 0.381,
+      "max_corr_resistance_leads": -1.0
+    },
+    {
+      "indicator": "ecoli_3gc_resistance_pct",
+      "iso3": "LAO",
+      "n_years": 5,
+      "best_lag_years": 0,
+      "best_correlation": 0.3,
+      "max_corr_consumption_leads": 0.268,
+      "max_corr_resistance_leads": -1.0
+    },
+    {
+      "indicator": "mrsa_resistance_pct",
+      "iso3": "CHE",
+      "n_years": 8,
+      "best_lag_years": 2,
+      "best_correlation": 0.204,
+      "max_corr_consumption_leads": 0.204,
+      "max_corr_resistance_leads": 0.149
+    }
+  ],
+  "resolution_caveat": "Annual, national data. This tests whether the antimicrobial-use driver leads the resistance outcome; it cannot and does not support a lead-time claim measured in weeks."
+}

@@ -1,0 +1,42 @@
+{
+  "representation_effect_within_trees": {
+    "a": "gbm_engineered",
+    "b": "gbm_raw",
+    "mean_delta_weeks": 0.004878048780487805,
+    "ci_low": -2.0,
+    "ci_high": 2.1812195121951183,
+    "n_paired_events": 205,
+    "significant": false,
+    "wilcoxon_p": 0.6674665406501937
+  },
+  "representation_effect_within_nn": {
+    "a": "nn_engineered",
+    "b": "nn_raw",
+    "mean_delta_weeks": -2.1658536585365855,
+    "ci_low": -3.975731707317073,
+    "ci_high": -0.31195121951219645,
+    "n_paired_events": 205,
+    "significant": false,
+    "wilcoxon_p": 0.9859073110641317
+  },
+  "model_effect_on_engineered": {
+    "a": "gbm_engineered",
+    "b": "nn_engineered",
+    "mean_delta_weeks": 6.204878048780488,
+    "ci_low": 4.497317073170732,
+    "ci_high": 7.975731707317072,
+    "n_paired_events": 205,
+    "significant": true,
+    "wilcoxon_p": 2.5011714188367543e-10
+  },
+  "model_effect_on_raw": {
+    "a": "gbm_raw",
+    "b": "nn_raw",
+    "mean_delta_weeks": 4.034146341463415,
+    "ci_low": 1.9170731707317072,
+    "ci_high": 6.151951219512191,
+    "n_paired_events": 205,
+    "significant": true,
+    "wilcoxon_p": 0.0004433279169058639
+  }
+}

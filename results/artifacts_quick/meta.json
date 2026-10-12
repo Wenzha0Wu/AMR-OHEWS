@@ -1,0 +1,1012 @@
+{
+  "events": [
+    {
+      "region": 2,
+      "determinant": "TET_tet(O)",
+      "onset_week": 452,
+      "amplitude": 0.42994293584789306,
+      "rate": 0.1822372754952631,
+      "lag_to_human": 20,
+      "is_true_event": true,
+      "human_emergence_week": 464
+    },
+    {
+      "region": 1,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 410,
+      "amplitude": 0.246729619886969,
+      "rate": 0.09118698353515475,
+      "lag_to_human": 11,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 13,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 328,
+      "amplitude": 0.37294700489678323,
+      "rate": 0.09505793931734083,
+      "lag_to_human": 20,
+      "is_true_event": true,
+      "human_emergence_week": 336
+    },
+    {
+      "region": 8,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 210,
+      "amplitude": 0.4257690568783348,
+      "rate": 0.15421011513253347,
+      "lag_to_human": 21,
+      "is_true_event": true,
+      "human_emergence_week": 221
+    },
+    {
+      "region": 13,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 288,
+      "amplitude": 0.23241503868051427,
+      "rate": 0.1489033372926813,
+      "lag_to_human": 22,
+      "is_true_event": true,
+      "human_emergence_week": 303
+    },
+    {
+      "region": 0,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 265,
+      "amplitude": 0.20401262286649344,
+      "rate": 0.21729140396900593,
+      "lag_to_human": 10,
+      "is_true_event": true,
+      "human_emergence_week": 270
+    },
+    {
+      "region": 0,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 285,
+      "amplitude": 0.18173039831936375,
+      "rate": 0.1858973801838083,
+      "lag_to_human": 21,
+      "is_true_event": true,
+      "human_emergence_week": 300
+    },
+    {
+      "region": 17,
+      "determinant": "COL_mcr-1",
+      "onset_week": 460,
+      "amplitude": 0.3392649076466566,
+      "rate": 0.11795224544239975,
+      "lag_to_human": 22,
+      "is_true_event": true,
+      "human_emergence_week": 469
+    },
+    {
+      "region": 9,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 120,
+      "amplitude": 0.36158219115755474,
+      "rate": 0.09926610976852077,
+      "lag_to_human": 20,
+      "is_true_event": true,
+      "human_emergence_week": 129
+    },
+    {
+      "region": 16,
+      "determinant": "TET_tet(O)",
+      "onset_week": 288,
+      "amplitude": 0.34260457762249896,
+      "rate": 0.21436346396865716,
+      "lag_to_human": 11,
+      "is_true_event": true,
+      "human_emergence_week": 293
+    },
+    {
+      "region": 1,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 71,
+      "amplitude": 0.31499266238782697,
+      "rate": 0.18161462189239724,
+      "lag_to_human": 15,
+      "is_true_event": true,
+      "human_emergence_week": 79
+    },
+    {
+      "region": 7,
+      "determinant": "TET_tet(O)",
+      "onset_week": 116,
+      "amplitude": 0.2847780175818202,
+      "rate": 0.0794343247682457,
+      "lag_to_human": 21,
+      "is_true_event": true,
+      "human_emergence_week": 121
+    },
+    {
+      "region": 10,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 352,
+      "amplitude": 0.2036973294250614,
+      "rate": 0.12926375625369513,
+      "lag_to_human": 25,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 5,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 415,
+      "amplitude": 0.3075210909225031,
+      "rate": 0.20689329004613286,
+      "lag_to_human": 12,
+      "is_true_event": true,
+      "human_emergence_week": 421
+    },
+    {
+      "region": 10,
+      "determinant": "COL_mcr-1",
+      "onset_week": 369,
+      "amplitude": 0.4271374692301768,
+      "rate": 0.08911045135733596,
+      "lag_to_human": 19,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 10,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 71,
+      "amplitude": 0.19898808846368887,
+      "rate": 0.2003281441520979,
+      "lag_to_human": 20,
+      "is_true_event": true,
+      "human_emergence_week": 85
+    },
+    {
+      "region": 4,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 312,
+      "amplitude": 0.31407435732569033,
+      "rate": 0.09453151242947205,
+      "lag_to_human": 14,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 0,
+      "determinant": "TET_tet(O)",
+      "onset_week": 329,
+      "amplitude": 0.2658646947183655,
+      "rate": 0.17663197948989173,
+      "lag_to_human": 10,
+      "is_true_event": true,
+      "human_emergence_week": 333
+    },
+    {
+      "region": 4,
+      "determinant": "TET_tet(O)",
+      "onset_week": 237,
+      "amplitude": 0.3170168623470223,
+      "rate": 0.18844985986898055,
+      "lag_to_human": 13,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 3,
+      "determinant": "TET_tet(O)",
+      "onset_week": 79,
+      "amplitude": 0.3362647958973457,
+      "rate": 0.09958524209438029,
+      "lag_to_human": 21,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 6,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 387,
+      "amplitude": 0.31198842975490015,
+      "rate": 0.21830430000517295,
+      "lag_to_human": 18,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 4,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 118,
+      "amplitude": 0.44001516783355216,
+      "rate": 0.19013755549129135,
+      "lag_to_human": 20,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 16,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 246,
+      "amplitude": 0.3996541973285016,
+      "rate": 0.16042733578616747,
+      "lag_to_human": 22,
+      "is_true_event": true,
+      "human_emergence_week": 260
+    },
+    {
+      "region": 5,
+      "determinant": "COL_mcr-1",
+      "onset_week": 321,
+      "amplitude": 0.426696505930995,
+      "rate": 0.07979056246169372,
+      "lag_to_human": 18,
+      "is_true_event": true,
+      "human_emergence_week": 324
+    },
+    {
+      "region": 2,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 399,
+      "amplitude": 0.28308999059088447,
+      "rate": 0.11883184241510567,
+      "lag_to_human": 21,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 12,
+      "determinant": "COL_mcr-1",
+      "onset_week": 467,
+      "amplitude": 0.3909214355606221,
+      "rate": 0.14283027081693817,
+      "lag_to_human": 10,
+      "is_true_event": true,
+      "human_emergence_week": 469
+    },
+    {
+      "region": 6,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 221,
+      "amplitude": 0.41693280458538495,
+      "rate": 0.08302223083223413,
+      "lag_to_human": 23,
+      "is_true_event": true,
+      "human_emergence_week": 231
+    },
+    {
+      "region": 12,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 344,
+      "amplitude": 0.3930717484003894,
+      "rate": 0.1898794569574172,
+      "lag_to_human": 21,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 19,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 178,
+      "amplitude": 0.3950925793414347,
+      "rate": 0.10379926628134978,
+      "lag_to_human": 16,
+      "is_true_event": true,
+      "human_emergence_week": 182
+    },
+    {
+      "region": 15,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 195,
+      "amplitude": 0.29271099029518255,
+      "rate": 0.15121149754452468,
+      "lag_to_human": 19,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 1,
+      "determinant": "COL_mcr-1",
+      "onset_week": 88,
+      "amplitude": 0.28987590617261266,
+      "rate": 0.07004510351603845,
+      "lag_to_human": 16,
+      "is_true_event": true,
+      "human_emergence_week": 84
+    },
+    {
+      "region": 14,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 360,
+      "amplitude": 0.41000649630324937,
+      "rate": 0.09083975186802964,
+      "lag_to_human": 16,
+      "is_true_event": true,
+      "human_emergence_week": 362
+    },
+    {
+      "region": 17,
+      "determinant": "TET_tet(O)",
+      "onset_week": 342,
+      "amplitude": 0.40169783386655245,
+      "rate": 0.21727424843076906,
+      "lag_to_human": 10,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 1,
+      "determinant": "TET_tet(O)",
+      "onset_week": 402,
+      "amplitude": 0.2945087510698835,
+      "rate": 0.2169533062764485,
+      "lag_to_human": 20,
+      "is_true_event": true,
+      "human_emergence_week": 417
+    },
+    {
+      "region": 2,
+      "determinant": "COL_mcr-1",
+      "onset_week": 458,
+      "amplitude": 0.31599278438415634,
+      "rate": 0.18301698078758577,
+      "lag_to_human": 18,
+      "is_true_event": true,
+      "human_emergence_week": 469
+    },
+    {
+      "region": 18,
+      "determinant": "COL_mcr-1",
+      "onset_week": 432,
+      "amplitude": 0.3085597094315633,
+      "rate": 0.19956793616456273,
+      "lag_to_human": 12,
+      "is_true_event": true,
+      "human_emergence_week": 437
+    },
+    {
+      "region": 13,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 341,
+      "amplitude": 0.2593595491131305,
+      "rate": 0.18514784049752103,
+      "lag_to_human": 19,
+      "is_true_event": true,
+      "human_emergence_week": 354
+    },
+    {
+      "region": 5,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 285,
+      "amplitude": 0.20533819142699267,
+      "rate": 0.12870706394569964,
+      "lag_to_human": 24,
+      "is_true_event": true,
+      "human_emergence_week": 300
+    },
+    {
+      "region": 8,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 71,
+      "amplitude": 0.30856508006858885,
+      "rate": 0.13428094122143858,
+      "lag_to_human": 20,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 0,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 222,
+      "amplitude": 0.3383010954695118,
+      "rate": 0.08840359902641103,
+      "lag_to_human": 14,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 18,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 441,
+      "amplitude": 0.3646936209802589,
+      "rate": 0.19356720375891576,
+      "lag_to_human": 19,
+      "is_true_event": true,
+      "human_emergence_week": 455
+    },
+    {
+      "region": 8,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 425,
+      "amplitude": 0.3374964126693385,
+      "rate": 0.07603273313569012,
+      "lag_to_human": 11,
+      "is_true_event": true,
+      "human_emergence_week": 416
+    },
+    {
+      "region": 17,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 345,
+      "amplitude": 0.3336369806511067,
+      "rate": 0.1938935833255599,
+      "lag_to_human": 22,
+      "is_true_event": true,
+      "human_emergence_week": 362
+    },
+    {
+      "region": 14,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 268,
+      "amplitude": 0.39957590574833196,
+      "rate": 0.21955154396087376,
+      "lag_to_human": 14,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 11,
+      "determinant": "COL_mcr-1",
+      "onset_week": 190,
+      "amplitude": 0.226175788805582,
+      "rate": 0.1287512199180854,
+      "lag_to_human": 21,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 15,
+      "determinant": "COL_mcr-1",
+      "onset_week": 363,
+      "amplitude": 0.29859181160174275,
+      "rate": 0.15825701641438222,
+      "lag_to_human": 22,
+      "is_true_event": true,
+      "human_emergence_week": 377
+    },
+    {
+      "region": 5,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 94,
+      "amplitude": 0.3760533479521747,
+      "rate": 0.11201236027997492,
+      "lag_to_human": 25,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 17,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 121,
+      "amplitude": 0.41299649961746254,
+      "rate": 0.15466192316808913,
+      "lag_to_human": 15,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 7,
+      "determinant": "COL_mcr-1",
+      "onset_week": 248,
+      "amplitude": 0.42268241661709083,
+      "rate": 0.0829018654091504,
+      "lag_to_human": 12,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 19,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 339,
+      "amplitude": 0.2685552182364427,
+      "rate": 0.09631146249776217,
+      "lag_to_human": 25,
+      "is_true_event": true,
+      "human_emergence_week": 350
+    },
+    {
+      "region": 4,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 330,
+      "amplitude": 0.27796192673299275,
+      "rate": 0.11948437487409039,
+      "lag_to_human": 19,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 12,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 445,
+      "amplitude": 0.23381055198346126,
+      "rate": 0.14682604867566026,
+      "lag_to_human": 18,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 6,
+      "determinant": "TET_tet(O)",
+      "onset_week": 50,
+      "amplitude": 0.22410938460697816,
+      "rate": 0.2025128100450343,
+      "lag_to_human": 13,
+      "is_true_event": true,
+      "human_emergence_week": 57
+    },
+    {
+      "region": 18,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 379,
+      "amplitude": 0.33034558231457734,
+      "rate": 0.10336800939870405,
+      "lag_to_human": 22,
+      "is_true_event": true,
+      "human_emergence_week": 388
+    },
+    {
+      "region": 2,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 279,
+      "amplitude": 0.1832795620506754,
+      "rate": 0.1769490446406881,
+      "lag_to_human": 16,
+      "is_true_event": true,
+      "human_emergence_week": 289
+    },
+    {
+      "region": 16,
+      "determinant": "COL_mcr-1",
+      "onset_week": 348,
+      "amplitude": 0.3544321563629158,
+      "rate": 0.16170080264128017,
+      "lag_to_human": 14,
+      "is_true_event": true,
+      "human_emergence_week": 354
+    },
+    {
+      "region": 14,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 71,
+      "amplitude": 0.2465296116437634,
+      "rate": 0.15615670721468977,
+      "lag_to_human": 19,
+      "is_true_event": true,
+      "human_emergence_week": 81
+    },
+    {
+      "region": 15,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 209,
+      "amplitude": 0.44784627171699015,
+      "rate": 0.20856180360627719,
+      "lag_to_human": 11,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 7,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 105,
+      "amplitude": 0.3392893600153733,
+      "rate": 0.1744322659155185,
+      "lag_to_human": 24,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 11,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 98,
+      "amplitude": 0.26440082471731624,
+      "rate": 0.17738767703882413,
+      "lag_to_human": 16,
+      "is_true_event": true,
+      "human_emergence_week": 108
+    },
+    {
+      "region": 4,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 427,
+      "amplitude": 0.2722705155556565,
+      "rate": 0.10584155675369208,
+      "lag_to_human": 23,
+      "is_true_event": true,
+      "human_emergence_week": 437
+    },
+    {
+      "region": 9,
+      "determinant": "COL_mcr-1",
+      "onset_week": 393,
+      "amplitude": 0.33794532366093316,
+      "rate": 0.14148826325586555,
+      "lag_to_human": 24,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 14,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 150,
+      "amplitude": 0.19961775413504668,
+      "rate": 0.0726837131345463,
+      "lag_to_human": 12,
+      "is_true_event": true,
+      "human_emergence_week": 147
+    },
+    {
+      "region": 18,
+      "determinant": "TET_tet(O)",
+      "onset_week": 289,
+      "amplitude": 0.2315997738342202,
+      "rate": 0.21632994676402306,
+      "lag_to_human": 25,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 13,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 86,
+      "amplitude": 0.30206397284831926,
+      "rate": 0.129198969560644,
+      "lag_to_human": 23,
+      "is_true_event": true,
+      "human_emergence_week": 99
+    },
+    {
+      "region": 0,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 139,
+      "amplitude": 0.38216404575106244,
+      "rate": 0.16655571431204658,
+      "lag_to_human": 11,
+      "is_true_event": true,
+      "human_emergence_week": 143
+    },
+    {
+      "region": 19,
+      "determinant": "COL_mcr-1",
+      "onset_week": 352,
+      "amplitude": 0.20235831549205358,
+      "rate": 0.12291151235446077,
+      "lag_to_human": 20,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 19,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 263,
+      "amplitude": 0.2952147088071651,
+      "rate": 0.07609263428091179,
+      "lag_to_human": 15,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 1,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 123,
+      "amplitude": 0.43515665504224915,
+      "rate": 0.09438545871299774,
+      "lag_to_human": 16,
+      "is_true_event": true,
+      "human_emergence_week": 124
+    },
+    {
+      "region": 14,
+      "determinant": "COL_mcr-1",
+      "onset_week": 406,
+      "amplitude": 0.40197703294739884,
+      "rate": 0.1286940635617162,
+      "lag_to_human": 10,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 13,
+      "determinant": "COL_mcr-1",
+      "onset_week": 240,
+      "amplitude": 0.4024804880654782,
+      "rate": 0.17210294883553187,
+      "lag_to_human": 18,
+      "is_true_event": true,
+      "human_emergence_week": 250
+    },
+    {
+      "region": 3,
+      "determinant": "COL_mcr-1",
+      "onset_week": 399,
+      "amplitude": 0.3845510781746734,
+      "rate": 0.1736907219160907,
+      "lag_to_human": 16,
+      "is_true_event": true,
+      "human_emergence_week": 408
+    },
+    {
+      "region": 10,
+      "determinant": "TET_tet(O)",
+      "onset_week": 432,
+      "amplitude": 0.402157925935539,
+      "rate": 0.096859403137449,
+      "lag_to_human": 18,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 6,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 361,
+      "amplitude": 0.20340395724092655,
+      "rate": 0.13387843604410324,
+      "lag_to_human": 25,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 17,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 210,
+      "amplitude": 0.23458538537338086,
+      "rate": 0.2106857662953984,
+      "lag_to_human": 25,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 4,
+      "determinant": "COL_mcr-1",
+      "onset_week": 80,
+      "amplitude": 0.1813228420469154,
+      "rate": 0.11843812054959676,
+      "lag_to_human": 18,
+      "is_true_event": true,
+      "human_emergence_week": 89
+    },
+    {
+      "region": 8,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 466,
+      "amplitude": 0.2514676846648788,
+      "rate": 0.19460413982765964,
+      "lag_to_human": 17,
+      "is_true_event": true,
+      "human_emergence_week": 476
+    },
+    {
+      "region": 18,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 114,
+      "amplitude": 0.338322155795562,
+      "rate": 0.2137614002769088,
+      "lag_to_human": 19,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 15,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 348,
+      "amplitude": 0.4447371532981913,
+      "rate": 0.15618349736335596,
+      "lag_to_human": 20,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 8,
+      "determinant": "COL_mcr-1",
+      "onset_week": 462,
+      "amplitude": 0.4060026985644011,
+      "rate": 0.18673723391528924,
+      "lag_to_human": 11,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 11,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 422,
+      "amplitude": 0.3505027096606365,
+      "rate": 0.12345468195648572,
+      "lag_to_human": 11,
+      "is_true_event": true,
+      "human_emergence_week": 423
+    },
+    {
+      "region": 17,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 267,
+      "amplitude": 0.24115510683423816,
+      "rate": 0.1866316185822558,
+      "lag_to_human": 13,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 14,
+      "determinant": "TET_tet(O)",
+      "onset_week": 113,
+      "amplitude": 0.3358434462263795,
+      "rate": 0.15038483943686715,
+      "lag_to_human": 10,
+      "is_true_event": true,
+      "human_emergence_week": 114
+    },
+    {
+      "region": 10,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 328,
+      "amplitude": 0.38533138163961755,
+      "rate": 0.08647418290958635,
+      "lag_to_human": 14,
+      "is_true_event": true,
+      "human_emergence_week": 325
+    },
+    {
+      "region": 9,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 308,
+      "amplitude": 0.2917680882656021,
+      "rate": 0.16213021535019306,
+      "lag_to_human": 21,
+      "is_true_event": true,
+      "human_emergence_week": 321
+    },
+    {
+      "region": 5,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 338,
+      "amplitude": 0.3380794881553679,
+      "rate": 0.1799329115288073,
+      "lag_to_human": 22,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 7,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 263,
+      "amplitude": 0.30497430846490337,
+      "rate": 0.11301532981728028,
+      "lag_to_human": 17,
+      "is_true_event": true,
+      "human_emergence_week": 270
+    },
+    {
+      "region": 3,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 138,
+      "amplitude": 0.36773156864479095,
+      "rate": 0.17435670292186867,
+      "lag_to_human": 12,
+      "is_true_event": true,
+      "human_emergence_week": 142
+    },
+    {
+      "region": 11,
+      "determinant": "TET_tet(O)",
+      "onset_week": 124,
+      "amplitude": 0.4423961024850003,
+      "rate": 0.1706726170434094,
+      "lag_to_human": 14,
+      "is_true_event": true,
+      "human_emergence_week": 132
+    },
+    {
+      "region": 3,
+      "determinant": "ESBL_blaCTX-M",
+      "onset_week": 268,
+      "amplitude": 0.40711734491714124,
+      "rate": 0.14297806499547322,
+      "lag_to_human": 22,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 11,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 244,
+      "amplitude": 0.24973408802093494,
+      "rate": 0.09342032220860386,
+      "lag_to_human": 17,
+      "is_true_event": true,
+      "human_emergence_week": 247
+    },
+    {
+      "region": 15,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 345,
+      "amplitude": 0.4079099614245415,
+      "rate": 0.17166981671439385,
+      "lag_to_human": 14,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 11,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 198,
+      "amplitude": 0.3354449646291441,
+      "rate": 0.15451187105109848,
+      "lag_to_human": 11,
+      "is_true_event": true,
+      "human_emergence_week": 201
+    },
+    {
+      "region": 16,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 442,
+      "amplitude": 0.28467203722803613,
+      "rate": 0.09471739780990053,
+      "lag_to_human": 20,
+      "is_true_event": true,
+      "human_emergence_week": 450
+    },
+    {
+      "region": 12,
+      "determinant": "TET_tet(O)",
+      "onset_week": 417,
+      "amplitude": 0.4215766941594545,
+      "rate": 0.0772398392502843,
+      "lag_to_human": 21,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 19,
+      "determinant": "TET_tet(O)",
+      "onset_week": 125,
+      "amplitude": 0.3517965864718542,
+      "rate": 0.18832677334522568,
+      "lag_to_human": 12,
+      "is_true_event": true,
+      "human_emergence_week": 132
+    },
+    {
+      "region": 7,
+      "determinant": "MAC_erm(B)",
+      "onset_week": 300,
+      "amplitude": 0.23172908295417072,
+      "rate": 0.08764623628932987,
+      "lag_to_human": 25,
+      "is_true_event": true,
+      "human_emergence_week": 311
+    },
+    {
+      "region": 16,
+      "determinant": "FQ_gyrA_T86I",
+      "onset_week": 257,
+      "amplitude": 0.4001878097979331,
+      "rate": 0.10256007716081894,
+      "lag_to_human": 15,
+      "is_true_event": true,
+      "human_emergence_week": 260
+    },
+    {
+      "region": 19,
+      "determinant": "AMG_aac(6')-Ib-cr",
+      "onset_week": 72,
+      "amplitude": 0.32878214886419227,
+      "rate": 0.09877257222028821,
+      "lag_to_human": 17,
+      "is_true_event": false,
+      "human_emergence_week": null
+    },
+    {
+      "region": 0,
+      "determinant": "COL_mcr-1",
+      "onset_week": 68,
+      "amplitude": 0.38878144147114246,
+      "rate": 0.19318399091168836,
+      "lag_to_human": 22,
+      "is_true_event": true,
+      "human_emergence_week": 85
+    }
+  ],
+  "threshold": 0.16667300613878464,
+  "baseline_thresholds": {
+    "ewma": 2.9617888902417038,
+    "cusum": 18.308468882105295,
+    "farrington": 2.772874167796966,
+    "manual": 3.0
+  },
+  "shap_method": "tree_shap"
+}

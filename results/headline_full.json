@@ -1,0 +1,1523 @@
+{
+  "reference_method": {
+    "matched_far@0.5": "baseline_ewma",
+    "prospective@0.25": "baseline_ewma",
+    "prospective@0.5": "baseline_ewma",
+    "prospective@1.0": "baseline_farrington"
+  },
+  "comparisons": {
+    "matched_far@0.5::baseline_cusum": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_cusum",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -8.32312925170068,
+      "ci_low": -9.449149659863945,
+      "ci_high": -7.268622448979593,
+      "wilcoxon": {
+        "statistic": 1405.5,
+        "p_value": 1.0,
+        "n": 294
+      },
+      "significant": false
+    },
+    "matched_far@0.5::baseline_farrington": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_farrington",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -0.7074829931972789,
+      "ci_low": -2.2075680272108844,
+      "ci_high": 0.9492346938775497,
+      "wilcoxon": {
+        "statistic": 18324.0,
+        "p_value": 0.9894288722113691,
+        "n": 294
+      },
+      "significant": false
+    },
+    "matched_far@0.5::baseline_manual": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_manual",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -5.302721088435374,
+      "ci_low": -6.792687074829932,
+      "ci_high": -3.697278911564626,
+      "wilcoxon": {
+        "statistic": 11224.5,
+        "p_value": 0.9999999999996264,
+        "n": 294
+      },
+      "significant": false
+    },
+    "matched_far@0.5::fusion": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "fusion",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 3.9183673469387754,
+      "ci_low": 2.1053571428571427,
+      "ci_high": 5.786394557823125,
+      "wilcoxon": {
+        "statistic": 27848.5,
+        "p_value": 1.1824756377283654e-05,
+        "n": 294
+      },
+      "significant": true
+    },
+    "matched_far@0.5::ablation_clinical_only": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_clinical_only",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -6.207482993197279,
+      "ci_low": -7.898044217687075,
+      "ci_high": -4.36045918367347,
+      "wilcoxon": {
+        "statistic": 10980.5,
+        "p_value": 0.999999999999891,
+        "n": 294
+      },
+      "significant": false
+    },
+    "matched_far@0.5::ablation_no_environment": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_environment",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.7687074829931972,
+      "ci_low": 0.09489795918367348,
+      "ci_high": 3.653316326530611,
+      "wilcoxon": {
+        "statistic": 24587.0,
+        "p_value": 0.02322612582236147,
+        "n": 294
+      },
+      "significant": true
+    },
+    "matched_far@0.5::ablation_no_animal": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_animal",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 2.3469387755102042,
+      "ci_low": 0.5982142857142857,
+      "ci_high": 4.2078231292516985,
+      "wilcoxon": {
+        "statistic": 25166.5,
+        "p_value": 0.008454264768989176,
+        "n": 294
+      },
+      "significant": true
+    },
+    "matched_far@0.5::ablation_no_food": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_food",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.9319727891156462,
+      "ci_low": 0.2108843537414966,
+      "ci_high": 3.7620748299319717,
+      "wilcoxon": {
+        "statistic": 24469.0,
+        "p_value": 0.028040517543563553,
+        "n": 294
+      },
+      "significant": true
+    },
+    "matched_far@0.5::ablation_no_network": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_network",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 3.2448979591836733,
+      "ci_low": 1.4483843537414967,
+      "ci_high": 5.1531462585034005,
+      "wilcoxon": {
+        "statistic": 26486.5,
+        "p_value": 0.000494607778112528,
+        "n": 294
+      },
+      "significant": true
+    },
+    "matched_far@0.5::temporal_tcn": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "temporal_tcn",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 2.5,
+      "ci_low": 0.7074829931972789,
+      "ci_high": 4.31641156462585,
+      "wilcoxon": {
+        "statistic": 25351.0,
+        "p_value": 0.005952698649400116,
+        "n": 294
+      },
+      "significant": true
+    },
+    "matched_far@0.5::graph_stgnn": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "graph_stgnn",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 0.6326530612244898,
+      "ci_low": -1.2414965986394557,
+      "ci_high": 2.574914965986394,
+      "wilcoxon": {
+        "statistic": 22376.0,
+        "p_value": 0.31724261974900986,
+        "n": 294
+      },
+      "significant": false
+    },
+    "matched_far@0.5::ensemble": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ensemble",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 4.258503401360544,
+      "ci_low": 2.4454931972789113,
+      "ci_high": 6.037755102040815,
+      "wilcoxon": {
+        "statistic": 28189.0,
+        "p_value": 4.089144171447058e-06,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.25::baseline_cusum": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_cusum",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -7.210884353741497,
+      "ci_low": -8.272448979591838,
+      "ci_high": -6.183673469387755,
+      "wilcoxon": {
+        "statistic": 2910.0,
+        "p_value": 1.0,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.25::baseline_farrington": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_farrington",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -2.078231292517007,
+      "ci_low": -3.4356292517006803,
+      "ci_high": -0.7141156462585043,
+      "wilcoxon": {
+        "statistic": 14401.5,
+        "p_value": 0.9999997348250509,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.25::baseline_manual": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_manual",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -5.826530612244898,
+      "ci_low": -6.9660714285714285,
+      "ci_high": -4.622363945578232,
+      "wilcoxon": {
+        "statistic": 6330.0,
+        "p_value": 1.0,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.25::fusion": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "fusion",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 4.45578231292517,
+      "ci_low": 2.7277210884353744,
+      "ci_high": 6.105527210884353,
+      "wilcoxon": {
+        "statistic": 28613.0,
+        "p_value": 9.97948439975359e-07,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.25::ablation_clinical_only": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_clinical_only",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -5.214285714285714,
+      "ci_low": -6.4389455782312925,
+      "ci_high": -3.9556972789115648,
+      "wilcoxon": {
+        "statistic": 8332.5,
+        "p_value": 1.0,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.25::ablation_no_environment": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_environment",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.8945578231292517,
+      "ci_low": 0.24829931972789115,
+      "ci_high": 3.4966836734693874,
+      "wilcoxon": {
+        "statistic": 23867.5,
+        "p_value": 0.0669080265536016,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.25::ablation_no_animal": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_animal",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 2.5272108843537415,
+      "ci_low": 0.9555272108843537,
+      "ci_high": 4.149659863945578,
+      "wilcoxon": {
+        "statistic": 24831.0,
+        "p_value": 0.015381396529506338,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.25::ablation_no_food": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_food",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.8605442176870748,
+      "ci_low": 0.27848639455782315,
+      "ci_high": 3.44906462585034,
+      "wilcoxon": {
+        "statistic": 24266.0,
+        "p_value": 0.03814586068688682,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.25::ablation_no_network": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_network",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 3.4115646258503403,
+      "ci_low": 1.7617346938775509,
+      "ci_high": 5.054761904761903,
+      "wilcoxon": {
+        "statistic": 26725.5,
+        "p_value": 0.000270338950492705,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.25::temporal_tcn": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "temporal_tcn",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.9965986394557824,
+      "ci_low": 0.2516156462585034,
+      "ci_high": 3.5718537414965965,
+      "wilcoxon": {
+        "statistic": 24194.0,
+        "p_value": 0.04244476549749086,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.25::graph_stgnn": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "graph_stgnn",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -0.013605442176870748,
+      "ci_low": -1.58171768707483,
+      "ci_high": 1.588520408163265,
+      "wilcoxon": {
+        "statistic": 20858.5,
+        "p_value": 0.7141981941690625,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.25::ensemble": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ensemble",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 3.9047619047619047,
+      "ci_low": 2.2685374149659867,
+      "ci_high": 5.578401360544217,
+      "wilcoxon": {
+        "statistic": 28177.5,
+        "p_value": 4.185729085125876e-06,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.5::baseline_cusum": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_cusum",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -7.071428571428571,
+      "ci_low": -8.102210884353742,
+      "ci_high": -5.959183673469388,
+      "wilcoxon": {
+        "statistic": 2002.5,
+        "p_value": 1.0,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.5::baseline_farrington": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_farrington",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -2.2210884353741496,
+      "ci_low": -3.697534013605442,
+      "ci_high": -0.6495748299319734,
+      "wilcoxon": {
+        "statistic": 15375.5,
+        "p_value": 0.999992522350981,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.5::baseline_manual": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_manual",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -6.414965986394558,
+      "ci_low": -7.840221088435374,
+      "ci_high": -4.917942176870751,
+      "wilcoxon": {
+        "statistic": 9179.5,
+        "p_value": 1.0,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.5::fusion": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "fusion",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 3.1156462585034013,
+      "ci_low": 1.30578231292517,
+      "ci_high": 4.972874149659863,
+      "wilcoxon": {
+        "statistic": 26834.0,
+        "p_value": 0.00020648708004131132,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.5::ablation_clinical_only": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_clinical_only",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -6.921768707482993,
+      "ci_low": -8.551190476190477,
+      "ci_high": -5.091836734693878,
+      "wilcoxon": {
+        "statistic": 10201.0,
+        "p_value": 0.9999999999999982,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.5::ablation_no_environment": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_environment",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 0.9047619047619048,
+      "ci_low": -0.7790816326530612,
+      "ci_high": 2.836819727891156,
+      "wilcoxon": {
+        "statistic": 23577.0,
+        "p_value": 0.0970035746627439,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.5::ablation_no_animal": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_animal",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.380952380952381,
+      "ci_low": -0.42185374149659866,
+      "ci_high": 3.2892006802721085,
+      "wilcoxon": {
+        "statistic": 23685.0,
+        "p_value": 0.08489464817367243,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.5::ablation_no_food": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_food",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.7210884353741496,
+      "ci_low": -0.08511904761904761,
+      "ci_high": 3.6599489795918365,
+      "wilcoxon": {
+        "statistic": 24357.5,
+        "p_value": 0.033334729642905916,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.5::ablation_no_network": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_network",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 2.8877551020408165,
+      "ci_low": 1.094982993197279,
+      "ci_high": 4.782312925170068,
+      "wilcoxon": {
+        "statistic": 26182.5,
+        "p_value": 0.0010173321427117401,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@0.5::temporal_tcn": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "temporal_tcn",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -0.17687074829931973,
+      "ci_low": -1.9730442176870748,
+      "ci_high": 1.748469387755101,
+      "wilcoxon": {
+        "statistic": 21146.0,
+        "p_value": 0.6434903576990577,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.5::graph_stgnn": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "graph_stgnn",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -1.5170068027210883,
+      "ci_low": -3.3914115646258503,
+      "ci_high": 0.38460884353741354,
+      "wilcoxon": {
+        "statistic": 19165.5,
+        "p_value": 0.9577895542457449,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@0.5::ensemble": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ensemble",
+      "vs": "baseline_ewma",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 2.5918367346938775,
+      "ci_low": 0.7311224489795919,
+      "ci_high": 4.462925170068025,
+      "wilcoxon": {
+        "statistic": 26026.5,
+        "p_value": 0.0014505672638526446,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@1.0::baseline_ewma": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_ewma",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -0.1360544217687075,
+      "ci_low": -1.629421768707483,
+      "ci_high": 1.4421768707482994,
+      "wilcoxon": {
+        "statistic": 22332.5,
+        "p_value": 0.3278171950432651,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@1.0::baseline_cusum": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_cusum",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -3.3503401360544216,
+      "ci_low": -4.949149659863946,
+      "ci_high": -1.7414115646258508,
+      "wilcoxon": {
+        "statistic": 16063.0,
+        "p_value": 0.9999422306985294,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@1.0::baseline_manual": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_manual",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -9.877551020408163,
+      "ci_low": -11.581802721088435,
+      "ci_high": -8.16624149659864,
+      "wilcoxon": {
+        "statistic": 7355.5,
+        "p_value": 1.0,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@1.0::fusion": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "fusion",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 2.479591836734694,
+      "ci_low": 0.5235544217687075,
+      "ci_high": 4.442176870748299,
+      "wilcoxon": {
+        "statistic": 25845.5,
+        "p_value": 0.002159081702713561,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@1.0::ablation_clinical_only": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_clinical_only",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -6.340136054421769,
+      "ci_low": -8.347108843537415,
+      "ci_high": -4.251105442176874,
+      "wilcoxon": {
+        "statistic": 13458.5,
+        "p_value": 0.9999999913811565,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@1.0::ablation_no_environment": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_environment",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.0952380952380953,
+      "ci_low": -0.8571428571428571,
+      "ci_high": 3.061819727891153,
+      "wilcoxon": {
+        "statistic": 23743.0,
+        "p_value": 0.07889328575919063,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@1.0::ablation_no_animal": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_animal",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.1462585034013606,
+      "ci_low": -0.7688775510204081,
+      "ci_high": 3.0613095238095234,
+      "wilcoxon": {
+        "statistic": 23519.5,
+        "p_value": 0.10395372703765732,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@1.0::ablation_no_food": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_food",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 1.5680272108843538,
+      "ci_low": -0.35416666666666663,
+      "ci_high": 3.456037414965985,
+      "wilcoxon": {
+        "statistic": 24588.5,
+        "p_value": 0.02317641989977295,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@1.0::ablation_no_network": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_network",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 2.2891156462585034,
+      "ci_low": 0.30612244897959184,
+      "ci_high": 4.2449829931972785,
+      "wilcoxon": {
+        "statistic": 25289.5,
+        "p_value": 0.006704053670783483,
+        "n": 294
+      },
+      "significant": true
+    },
+    "prospective@1.0::temporal_tcn": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "temporal_tcn",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 0.5476190476190477,
+      "ci_low": -1.4221938775510203,
+      "ci_high": 2.391411564625849,
+      "wilcoxon": {
+        "statistic": 22766.0,
+        "p_value": 0.2288012558657146,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@1.0::graph_stgnn": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "graph_stgnn",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": -0.3945578231292517,
+      "ci_low": -2.411649659863946,
+      "ci_high": 1.5443877551020397,
+      "wilcoxon": {
+        "statistic": 21289.5,
+        "p_value": 0.606195903856733,
+        "n": 294
+      },
+      "significant": false
+    },
+    "prospective@1.0::ensemble": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ensemble",
+      "vs": "baseline_farrington",
+      "n_paired_events": 294,
+      "mean_delta_weeks": 2.748299319727891,
+      "ci_low": 0.9316326530612246,
+      "ci_high": 4.588520408163265,
+      "wilcoxon": {
+        "statistic": 26321.0,
+        "p_value": 0.0007365694026490479,
+        "n": 294
+      },
+      "significant": true
+    }
+  },
+  "prob_metrics": {
+    "fusion": {
+      "auc_pr": 0.10353320859398395,
+      "roc_auc": 0.7051454261216469,
+      "brier": 0.0294736297708502,
+      "base_rate": 0.030168623587548012
+    },
+    "ensemble": {
+      "auc_pr": 0.12058831527859883,
+      "roc_auc": 0.736133581158472,
+      "brier": 0.029617782493035927,
+      "base_rate": 0.030168623587548012
+    }
+  },
+  "n_events_test_total": 294,
+  "by_method": [
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ensemble",
+      "tier": "ensemble",
+      "n_seeds": 30,
+      "sensitivity": 0.8068114512193459,
+      "mean_lead_time": 9.088350815850816,
+      "median_lead_time": 9.383333333333333,
+      "mean_lead_time_penalised": 5.70910811897654,
+      "false_alarms_per_series_year": 0.49663566437524415,
+      "n_events": 294,
+      "n_detected": 227
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "fusion",
+      "tier": "fusion",
+      "n_seeds": 30,
+      "sensitivity": 0.8170335439414387,
+      "mean_lead_time": 8.596849871261636,
+      "median_lead_time": 8.866666666666667,
+      "mean_lead_time_penalised": 5.183537057484426,
+      "false_alarms_per_series_year": 0.49649273811396155,
+      "n_events": 294,
+      "n_detected": 231
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_network",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.7822504566583514,
+      "mean_lead_time": 8.35622655122655,
+      "median_lead_time": 8.833333333333334,
+      "mean_lead_time_penalised": 4.429330262817105,
+      "false_alarms_per_series_year": 0.49663319367695546,
+      "n_events": 294,
+      "n_detected": 221
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "temporal_tcn",
+      "tier": "temporal",
+      "n_seeds": 30,
+      "sensitivity": 0.7469685553238185,
+      "mean_lead_time": 9.329508083935329,
+      "median_lead_time": 10.816666666666666,
+      "mean_lead_time_penalised": 4.299942048692048,
+      "false_alarms_per_series_year": 0.4974930785458454,
+      "n_events": 294,
+      "n_detected": 207
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_food",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.7960720054799002,
+      "mean_lead_time": 7.499659645909646,
+      "median_lead_time": 7.166666666666667,
+      "mean_lead_time_penalised": 3.7648812517891463,
+      "false_alarms_per_series_year": 0.4966353444439247,
+      "n_events": 294,
+      "n_detected": 221
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_animal",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.7258703771861666,
+      "mean_lead_time": 8.804791967291967,
+      "median_lead_time": 9.116666666666667,
+      "mean_lead_time_penalised": 3.611957547812811,
+      "false_alarms_per_series_year": 0.4969218856460219,
+      "n_events": 294,
+      "n_detected": 203
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_environment",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.7576435065908751,
+      "mean_lead_time": 7.260216240706258,
+      "median_lead_time": 6.775862068965517,
+      "mean_lead_time_penalised": 2.7376724226066336,
+      "false_alarms_per_series_year": 0.4956365222361598,
+      "n_events": 294,
+      "n_detected": 214
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "graph_stgnn",
+      "tier": "graph",
+      "n_seeds": 30,
+      "sensitivity": 0.6291383640725746,
+      "mean_lead_time": 9.558797503665925,
+      "median_lead_time": 9.916666666666666,
+      "mean_lead_time_penalised": 2.0342348075900705,
+      "false_alarms_per_series_year": 0.49735471536408976,
+      "n_events": 294,
+      "n_detected": 179
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_ewma",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.8913714404503879,
+      "mean_lead_time": 1.9012068514274396,
+      "median_lead_time": -0.05,
+      "mean_lead_time_penalised": 0.39087639212639214,
+      "false_alarms_per_series_year": 0.49748772328951,
+      "n_events": 294,
+      "n_detected": 261
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_farrington",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.7770888882073093,
+      "mean_lead_time": 3.6274039060068475,
+      "median_lead_time": 2.5833333333333335,
+      "mean_lead_time_penalised": 0.06814462097356841,
+      "false_alarms_per_series_year": 0.4950655051117408,
+      "n_events": 294,
+      "n_detected": 224
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_manual",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.48680579410842567,
+      "mean_lead_time": 2.6984036796536794,
+      "median_lead_time": 2.107142857142857,
+      "mean_lead_time_penalised": -4.443512077591025,
+      "false_alarms_per_series_year": 0.3940918157088037,
+      "n_events": 294,
+      "n_detected": 139
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_clinical_only",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.3324418953366322,
+      "mean_lead_time": 5.407523809523809,
+      "median_lead_time": 5.48,
+      "mean_lead_time_penalised": -6.170889103586473,
+      "false_alarms_per_series_year": 0.4969280693679854,
+      "n_events": 294,
+      "n_detected": 103
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_cusum",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.5702568362436783,
+      "mean_lead_time": -4.064972001178898,
+      "median_lead_time": -5.155172413793103,
+      "mean_lead_time_penalised": -6.88545631756158,
+      "false_alarms_per_series_year": 0.4970682657174224,
+      "n_events": 294,
+      "n_detected": 147
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "fusion",
+      "tier": "fusion",
+      "n_seeds": 30,
+      "sensitivity": 0.6515650942624627,
+      "mean_lead_time": 6.465899470899471,
+      "median_lead_time": 6.166666666666667,
+      "mean_lead_time_penalised": 0.3664525484262326,
+      "false_alarms_per_series_year": 0.22235805715404805,
+      "n_events": 294,
+      "n_detected": 186
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ensemble",
+      "tier": "ensemble",
+      "n_seeds": 30,
+      "sensitivity": 0.6384470378549326,
+      "mean_lead_time": 6.130801790801791,
+      "median_lead_time": 6.166666666666667,
+      "mean_lead_time_penalised": 0.026157918592129133,
+      "false_alarms_per_series_year": 0.19270671865759684,
+      "n_events": 294,
+      "n_detected": 187
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_network",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.6153956910535858,
+      "mean_lead_time": 6.1360583860583855,
+      "median_lead_time": 5.316666666666666,
+      "mean_lead_time_penalised": -0.4155193977562399,
+      "false_alarms_per_series_year": 0.23048250007983548,
+      "n_events": 294,
+      "n_detected": 178
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_animal",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.568819742635532,
+      "mean_lead_time": 6.086448226103398,
+      "median_lead_time": 5.793103448275862,
+      "mean_lead_time_penalised": -1.5874421679684836,
+      "false_alarms_per_series_year": 0.2167462958231766,
+      "n_events": 294,
+      "n_detected": 167
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_food",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.6158350372824056,
+      "mean_lead_time": 4.485423771630669,
+      "median_lead_time": 3.9310344827586206,
+      "mean_lead_time_penalised": -1.7654518532150112,
+      "false_alarms_per_series_year": 0.24525199983180856,
+      "n_events": 294,
+      "n_detected": 174
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "temporal_tcn",
+      "tier": "temporal",
+      "n_seeds": 30,
+      "sensitivity": 0.5420356057198162,
+      "mean_lead_time": 6.130045529183461,
+      "median_lead_time": 6.224137931034483,
+      "mean_lead_time_penalised": -1.9501199239357134,
+      "false_alarms_per_series_year": 0.18538028981866153,
+      "n_events": 294,
+      "n_detected": 152
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_environment",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.5736057266320425,
+      "mean_lead_time": 5.087072185195918,
+      "median_lead_time": 3.6724137931034484,
+      "mean_lead_time_penalised": -2.1241606176474597,
+      "false_alarms_per_series_year": 0.22391084589301302,
+      "n_events": 294,
+      "n_detected": 167
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "graph_stgnn",
+      "tier": "graph",
+      "n_seeds": 30,
+      "sensitivity": 0.4554156272577325,
+      "mean_lead_time": 6.593800069662138,
+      "median_lead_time": 6.810344827586207,
+      "mean_lead_time_penalised": -3.0923060224376018,
+      "false_alarms_per_series_year": 0.1796307016776336,
+      "n_events": 294,
+      "n_detected": 124
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_ewma",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.6777901143690618,
+      "mean_lead_time": -1.330808300331627,
+      "median_lead_time": -2.7586206896551726,
+      "mean_lead_time_penalised": -4.7580457578483895,
+      "false_alarms_per_series_year": 0.22108831240709442,
+      "n_events": 294,
+      "n_detected": 205
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_farrington",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.42901620796357637,
+      "mean_lead_time": 0.9268707482993196,
+      "median_lead_time": -0.6428571428571429,
+      "mean_lead_time_penalised": -6.6832226959200645,
+      "false_alarms_per_series_year": 0.20919655977762017,
+      "n_events": 294,
+      "n_detected": 135
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_clinical_only",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.1444145742172058,
+      "mean_lead_time": 2.6894736842105265,
+      "median_lead_time": 2.0,
+      "mean_lead_time_penalised": -9.907995235758394,
+      "false_alarms_per_series_year": 0.28159192522237897,
+      "n_events": 294,
+      "n_detected": 52
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_manual",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.1844294667320983,
+      "mean_lead_time": -2.3304347826086955,
+      "median_lead_time": -3.0869565217391304,
+      "mean_lead_time_penalised": -10.115732033560981,
+      "false_alarms_per_series_year": 0.14562210044691243,
+      "n_events": 294,
+      "n_detected": 56
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_cusum",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.10878079035973773,
+      "mean_lead_time": -9.559577677224736,
+      "median_lead_time": -9.461538461538462,
+      "mean_lead_time_penalised": -11.655180754917598,
+      "false_alarms_per_series_year": 0.232318267156393,
+      "n_events": 294,
+      "n_detected": 38
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "fusion",
+      "tier": "fusion",
+      "n_seeds": 30,
+      "sensitivity": 0.804899041017462,
+      "mean_lead_time": 8.575473785473784,
+      "median_lead_time": 8.466666666666667,
+      "mean_lead_time_penalised": 4.637642859090227,
+      "false_alarms_per_series_year": 0.4602467308228551,
+      "n_events": 294,
+      "n_detected": 233
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ensemble",
+      "tier": "ensemble",
+      "n_seeds": 30,
+      "sensitivity": 0.7796128457312668,
+      "mean_lead_time": 8.428544418544417,
+      "median_lead_time": 8.983333333333333,
+      "mean_lead_time_penalised": 4.360063795853269,
+      "false_alarms_per_series_year": 0.42215744956442597,
+      "n_events": 294,
+      "n_detected": 224
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_network",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.8013105753895228,
+      "mean_lead_time": 7.972163715913715,
+      "median_lead_time": 8.95,
+      "mean_lead_time_penalised": 4.296228632478632,
+      "false_alarms_per_series_year": 0.4946450923778424,
+      "n_events": 294,
+      "n_detected": 231
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_food",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.7817664499243446,
+      "mean_lead_time": 7.850157391341601,
+      "median_lead_time": 7.916666666666667,
+      "mean_lead_time_penalised": 3.658583643452064,
+      "false_alarms_per_series_year": 0.5006039085914179,
+      "n_events": 294,
+      "n_detected": 221
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_animal",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.7186847046715468,
+      "mean_lead_time": 7.763235560735561,
+      "median_lead_time": 8.1,
+      "mean_lead_time_penalised": 2.7755459793617687,
+      "false_alarms_per_series_year": 0.45382773245462166,
+      "n_events": 294,
+      "n_detected": 207
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_environment",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.7557689751768699,
+      "mean_lead_time": 6.563174603174603,
+      "median_lead_time": 6.383333333333334,
+      "mean_lead_time_penalised": 2.261214370424897,
+      "false_alarms_per_series_year": 0.4661356076693834,
+      "n_events": 294,
+      "n_detected": 218
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "temporal_tcn",
+      "tier": "temporal",
+      "n_seeds": 30,
+      "sensitivity": 0.6648246806799438,
+      "mean_lead_time": 9.188778575225944,
+      "median_lead_time": 10.75,
+      "mean_lead_time_penalised": 2.103259177469704,
+      "false_alarms_per_series_year": 0.4009761231360466,
+      "n_events": 294,
+      "n_detected": 184
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "graph_stgnn",
+      "tier": "graph",
+      "n_seeds": 30,
+      "sensitivity": 0.5868213000449843,
+      "mean_lead_time": 9.10473977524794,
+      "median_lead_time": 9.724137931034482,
+      "mean_lead_time_penalised": 0.5954972123393177,
+      "false_alarms_per_series_year": 0.4059387760308136,
+      "n_events": 294,
+      "n_detected": 169
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_ewma",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.8585871535871537,
+      "mean_lead_time": 2.178219391754942,
+      "median_lead_time": 0.6896551724137931,
+      "mean_lead_time_penalised": 0.29565825256614736,
+      "false_alarms_per_series_year": 0.47585032246343545,
+      "n_events": 294,
+      "n_detected": 261
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_farrington",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.6768567421856896,
+      "mean_lead_time": 3.0806238639656494,
+      "median_lead_time": 2.2413793103448274,
+      "mean_lead_time_penalised": -1.6262709926525716,
+      "false_alarms_per_series_year": 0.43046018833957933,
+      "n_events": 294,
+      "n_detected": 208
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_manual",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.43586000013631593,
+      "mean_lead_time": 0.6702897925120147,
+      "median_lead_time": 0.09259259259259259,
+      "mean_lead_time_penalised": -5.889605194999931,
+      "false_alarms_per_series_year": 0.3561849139747403,
+      "n_events": 294,
+      "n_detected": 146
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_clinical_only",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.34392661432135113,
+      "mean_lead_time": 5.787669018224574,
+      "median_lead_time": 5.203703703703703,
+      "mean_lead_time_penalised": -5.976264006461375,
+      "false_alarms_per_series_year": 0.5241802682529694,
+      "n_events": 294,
+      "n_detected": 105
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_cusum",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.5193282351177088,
+      "mean_lead_time": -2.486848995022072,
+      "median_lead_time": -3.7884615384615383,
+      "mean_lead_time_penalised": -6.781824707943129,
+      "false_alarms_per_series_year": 0.4610024974604591,
+      "n_events": 294,
+      "n_detected": 168
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "fusion",
+      "tier": "fusion",
+      "n_seeds": 30,
+      "sensitivity": 0.8956394239288976,
+      "mean_lead_time": 11.83320707070707,
+      "median_lead_time": 12.216666666666667,
+      "mean_lead_time_penalised": 9.652404527733475,
+      "false_alarms_per_series_year": 0.959152287417075,
+      "n_events": 294,
+      "n_detected": 260
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ensemble",
+      "tier": "ensemble",
+      "n_seeds": 30,
+      "sensitivity": 0.8847044159544161,
+      "mean_lead_time": 11.93221162143645,
+      "median_lead_time": 12.466666666666667,
+      "mean_lead_time_penalised": 9.587181583036847,
+      "false_alarms_per_series_year": 0.9113214407735047,
+      "n_events": 294,
+      "n_detected": 257
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_network",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.9047209442604179,
+      "mean_lead_time": 11.544400368150368,
+      "median_lead_time": 12.366666666666667,
+      "mean_lead_time_penalised": 9.474315182867816,
+      "false_alarms_per_series_year": 0.9957590742840474,
+      "n_events": 294,
+      "n_detected": 261
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_food",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.8811221527011001,
+      "mean_lead_time": 11.252698647378955,
+      "median_lead_time": 12.266666666666667,
+      "mean_lead_time_penalised": 8.652231304270778,
+      "false_alarms_per_series_year": 0.9994644845889197,
+      "n_events": 294,
+      "n_detected": 253
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_animal",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.837392259300154,
+      "mean_lead_time": 11.580632515632516,
+      "median_lead_time": 13.116666666666667,
+      "mean_lead_time_penalised": 8.135681017325755,
+      "false_alarms_per_series_year": 0.9397595150917412,
+      "n_events": 294,
+      "n_detected": 240
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_environment",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.8858961579356316,
+      "mean_lead_time": 10.505445725298667,
+      "median_lead_time": 11.6,
+      "mean_lead_time_penalised": 7.952411922872449,
+      "false_alarms_per_series_year": 0.9581697360203089,
+      "n_events": 294,
+      "n_detected": 256
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "temporal_tcn",
+      "tier": "temporal",
+      "n_seeds": 30,
+      "sensitivity": 0.8261559079322237,
+      "mean_lead_time": 11.815340849119622,
+      "median_lead_time": 12.783333333333333,
+      "mean_lead_time_penalised": 7.8601400646137485,
+      "false_alarms_per_series_year": 0.8872651736269934,
+      "n_events": 294,
+      "n_detected": 235
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_farrington",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.9201049121443858,
+      "mean_lead_time": 8.067714646464646,
+      "median_lead_time": 8.183333333333334,
+      "mean_lead_time_penalised": 6.3671237339658395,
+      "false_alarms_per_series_year": 0.8930813135510335,
+      "n_events": 294,
+      "n_detected": 273
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "graph_stgnn",
+      "tier": "graph",
+      "n_seeds": 30,
+      "sensitivity": 0.7912053906132854,
+      "mean_lead_time": 10.756288490802557,
+      "median_lead_time": 11.866666666666667,
+      "mean_lead_time_penalised": 6.295052413473466,
+      "false_alarms_per_series_year": 0.8986884810810841,
+      "n_events": 294,
+      "n_detected": 236
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_ewma",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.9570444832944833,
+      "mean_lead_time": 7.0345237983550675,
+      "median_lead_time": 6.233333333333333,
+      "mean_lead_time_penalised": 5.996006403440614,
+      "false_alarms_per_series_year": 0.9680757474096182,
+      "n_events": 294,
+      "n_detected": 283
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_cusum",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.9317042387437124,
+      "mean_lead_time": 3.3358862787539256,
+      "median_lead_time": 2.05,
+      "mean_lead_time_penalised": 2.1999070325386114,
+      "false_alarms_per_series_year": 0.9909495930679509,
+      "n_events": 294,
+      "n_detected": 276
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_clinical_only",
+      "tier": "ablation",
+      "n_seeds": 30,
+      "sensitivity": 0.5717324731798415,
+      "mean_lead_time": 8.276108374384236,
+      "median_lead_time": 9.741379310344827,
+      "mean_lead_time_penalised": -0.2661966834335255,
+      "false_alarms_per_series_year": 1.0199721070864523,
+      "n_events": 294,
+      "n_detected": 177
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_manual",
+      "tier": "baseline",
+      "n_seeds": 30,
+      "sensitivity": 0.5398272366035524,
+      "mean_lead_time": 2.650219918969919,
+      "median_lead_time": 2.0892857142857144,
+      "mean_lead_time_penalised": -3.8554029157976526,
+      "false_alarms_per_series_year": 0.4261859771774534,
+      "n_events": 294,
+      "n_detected": 172
+    }
+  ]
+}

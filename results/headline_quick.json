@@ -1,0 +1,1157 @@
+{
+  "reference_method": {
+    "matched_far@0.5": "baseline_ewma",
+    "prospective@0.25": "baseline_ewma",
+    "prospective@0.5": "baseline_ewma",
+    "prospective@1.0": "baseline_ewma"
+  },
+  "comparisons": {
+    "matched_far@0.5::baseline_cusum": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_cusum",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -7.516129032258065,
+      "ci_low": -10.549193548387096,
+      "ci_high": -4.418548387096778,
+      "wilcoxon": {
+        "statistic": 22.5,
+        "p_value": 0.9999953553567817,
+        "n": 31
+      },
+      "significant": false
+    },
+    "matched_far@0.5::baseline_farrington": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_farrington",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -3.032258064516129,
+      "ci_low": -5.904032258064516,
+      "ci_high": -0.2903225806451613,
+      "wilcoxon": {
+        "statistic": 135.0,
+        "p_value": 0.9869180291518779,
+        "n": 31
+      },
+      "significant": false
+    },
+    "matched_far@0.5::baseline_manual": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_manual",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -6.419354838709677,
+      "ci_low": -9.838709677419354,
+      "ci_high": -2.805645161290327,
+      "wilcoxon": {
+        "statistic": 48.5,
+        "p_value": 0.9999560143649594,
+        "n": 31
+      },
+      "significant": false
+    },
+    "matched_far@0.5::fusion": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "fusion",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 4.129032258064516,
+      "ci_low": 0.192741935483871,
+      "ci_high": 8.193548387096774,
+      "wilcoxon": {
+        "statistic": 337.0,
+        "p_value": 0.040389029230769584,
+        "n": 31
+      },
+      "significant": true
+    },
+    "matched_far@0.5::ablation_clinical_only": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_clinical_only",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -4.870967741935484,
+      "ci_low": -8.161290322580646,
+      "ci_high": -1.5475806451612948,
+      "wilcoxon": {
+        "statistic": 74.0,
+        "p_value": 0.9996882144783485,
+        "n": 31
+      },
+      "significant": false
+    },
+    "matched_far@0.5::ablation_no_environment": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_environment",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 2.4838709677419355,
+      "ci_low": -1.5483870967741935,
+      "ci_high": 6.419354838709677,
+      "wilcoxon": {
+        "statistic": 299.0,
+        "p_value": 0.1584457554686926,
+        "n": 31
+      },
+      "significant": false
+    },
+    "matched_far@0.5::ablation_no_animal": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_animal",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 0.967741935483871,
+      "ci_low": -3.129032258064516,
+      "ci_high": 5.065322580645157,
+      "wilcoxon": {
+        "statistic": 249.0,
+        "p_value": 0.49217547121117533,
+        "n": 31
+      },
+      "significant": false
+    },
+    "matched_far@0.5::ablation_no_food": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_food",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 1.6774193548387097,
+      "ci_low": -2.6129032258064515,
+      "ci_high": 6.064516129032258,
+      "wilcoxon": {
+        "statistic": 262.0,
+        "p_value": 0.3918134753109841,
+        "n": 31
+      },
+      "significant": false
+    },
+    "matched_far@0.5::ablation_no_network": {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_network",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 5.193548387096774,
+      "ci_low": 1.1935483870967742,
+      "ci_high": 9.097580645161287,
+      "wilcoxon": {
+        "statistic": 362.5,
+        "p_value": 0.012379188516399875,
+        "n": 31
+      },
+      "significant": true
+    },
+    "prospective@0.25::baseline_cusum": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_cusum",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -5.225806451612903,
+      "ci_low": -7.968548387096774,
+      "ci_high": -2.7419354838709675,
+      "wilcoxon": {
+        "statistic": 27.5,
+        "p_value": 0.999992877104873,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.25::baseline_farrington": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_farrington",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -2.903225806451613,
+      "ci_low": -4.548387096774194,
+      "ci_high": -1.4516129032258065,
+      "wilcoxon": {
+        "statistic": 45.5,
+        "p_value": 0.9999691574142653,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.25::baseline_manual": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_manual",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -4.709677419354839,
+      "ci_low": -7.483870967741935,
+      "ci_high": -2.2895161290322625,
+      "wilcoxon": {
+        "statistic": 45.0,
+        "p_value": 0.9999671496037735,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.25::fusion": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "fusion",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 4.0,
+      "ci_low": -0.12903225806451613,
+      "ci_high": 8.194354838709673,
+      "wilcoxon": {
+        "statistic": 314.5,
+        "p_value": 0.0960874212804344,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.25::ablation_clinical_only": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_clinical_only",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -3.967741935483871,
+      "ci_low": -7.09758064516129,
+      "ci_high": -1.2903225806451613,
+      "wilcoxon": {
+        "statistic": 78.5,
+        "p_value": 0.9995756169322356,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.25::ablation_no_environment": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_environment",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 2.6451612903225805,
+      "ci_low": -1.6129032258064515,
+      "ci_high": 6.742741935483867,
+      "wilcoxon": {
+        "statistic": 281.0,
+        "p_value": 0.258756676621139,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.25::ablation_no_animal": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_animal",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 1.3225806451612903,
+      "ci_low": -2.1629032258064513,
+      "ci_high": 4.710483870967738,
+      "wilcoxon": {
+        "statistic": 257.0,
+        "p_value": 0.42992211898062016,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.25::ablation_no_food": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_food",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 1.2903225806451613,
+      "ci_low": -2.1620967741935484,
+      "ci_high": 5.0,
+      "wilcoxon": {
+        "statistic": 250.5,
+        "p_value": 0.48042926709138123,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.25::ablation_no_network": {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_network",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 4.838709677419355,
+      "ci_low": 0.6774193548387096,
+      "ci_high": 9.064516129032258,
+      "wilcoxon": {
+        "statistic": 336.5,
+        "p_value": 0.04132959774255409,
+        "n": 31
+      },
+      "significant": true
+    },
+    "prospective@0.5::baseline_cusum": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_cusum",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -8.225806451612904,
+      "ci_low": -11.32258064516129,
+      "ci_high": -5.161290322580645,
+      "wilcoxon": {
+        "statistic": 22.5,
+        "p_value": 0.9999953461185441,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.5::baseline_farrington": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_farrington",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -3.2580645161290325,
+      "ci_low": -6.679838709677419,
+      "ci_high": 0.0967741935483871,
+      "wilcoxon": {
+        "statistic": 151.0,
+        "p_value": 0.9718565205244236,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.5::baseline_manual": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_manual",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -7.290322580645161,
+      "ci_low": -10.806451612903226,
+      "ci_high": -3.5798387096774236,
+      "wilcoxon": {
+        "statistic": 47.5,
+        "p_value": 0.9999594039010424,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.5::fusion": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "fusion",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 3.5806451612903225,
+      "ci_low": -0.8709677419354839,
+      "ci_high": 7.93709677419354,
+      "wilcoxon": {
+        "statistic": 328.5,
+        "p_value": 0.05715924963246791,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.5::ablation_clinical_only": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_clinical_only",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -5.225806451612903,
+      "ci_low": -8.645967741935483,
+      "ci_high": -1.6774193548387097,
+      "wilcoxon": {
+        "statistic": 87.0,
+        "p_value": 0.9992186917890551,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.5::ablation_no_environment": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_environment",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 1.7096774193548387,
+      "ci_low": -2.6774193548387095,
+      "ci_high": 5.838709677419355,
+      "wilcoxon": {
+        "statistic": 284.5,
+        "p_value": 0.23694904038733722,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.5::ablation_no_animal": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_animal",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -0.06451612903225806,
+      "ci_low": -4.323387096774193,
+      "ci_high": 4.162096774193544,
+      "wilcoxon": {
+        "statistic": 236.0,
+        "p_value": 0.5930295221804307,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.5::ablation_no_food": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_food",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 2.3870967741935485,
+      "ci_low": -1.839516129032258,
+      "ci_high": 6.774193548387097,
+      "wilcoxon": {
+        "statistic": 283.0,
+        "p_value": 0.24616077192610464,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@0.5::ablation_no_network": {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_network",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": 4.387096774193548,
+      "ci_low": -0.1298387096774193,
+      "ci_high": 8.646774193548378,
+      "wilcoxon": {
+        "statistic": 346.0,
+        "p_value": 0.027321307668292875,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@1.0::baseline_cusum": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_cusum",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -8.290322580645162,
+      "ci_low": -11.291129032258064,
+      "ci_high": -5.644354838709682,
+      "wilcoxon": {
+        "statistic": 5.0,
+        "p_value": 0.9999990618455536,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@1.0::baseline_farrington": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_farrington",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -3.6774193548387095,
+      "ci_low": -8.483870967741936,
+      "ci_high": 1.0330645161290277,
+      "wilcoxon": {
+        "statistic": 160.0,
+        "p_value": 0.957858806748507,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@1.0::baseline_manual": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_manual",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -7.548387096774194,
+      "ci_low": -11.451612903225806,
+      "ci_high": -3.193548387096774,
+      "wilcoxon": {
+        "statistic": 70.5,
+        "p_value": 0.9997487991098923,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@1.0::fusion": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "fusion",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -2.225806451612903,
+      "ci_low": -7.258064516129032,
+      "ci_high": 2.807258064516125,
+      "wilcoxon": {
+        "statistic": 224.0,
+        "p_value": 0.6810285564998352,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@1.0::ablation_clinical_only": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_clinical_only",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -10.612903225806452,
+      "ci_low": -14.387096774193548,
+      "ci_high": -6.838709677419355,
+      "wilcoxon": {
+        "statistic": 46.5,
+        "p_value": 0.9999609914280284,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@1.0::ablation_no_environment": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_environment",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -0.8709677419354839,
+      "ci_low": -6.258064516129032,
+      "ci_high": 4.291935483870959,
+      "wilcoxon": {
+        "statistic": 252.0,
+        "p_value": 0.46874845406962357,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@1.0::ablation_no_animal": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_animal",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -4.290322580645161,
+      "ci_low": -9.74274193548387,
+      "ci_high": 1.0661290322580557,
+      "wilcoxon": {
+        "statistic": 171.5,
+        "p_value": 0.933169458232382,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@1.0::ablation_no_food": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_food",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -1.7096774193548387,
+      "ci_low": -6.67741935483871,
+      "ci_high": 3.194354838709673,
+      "wilcoxon": {
+        "statistic": 225.5,
+        "p_value": 0.670419019474896,
+        "n": 31
+      },
+      "significant": false
+    },
+    "prospective@1.0::ablation_no_network": {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_network",
+      "vs": "baseline_ewma",
+      "n_paired_events": 31,
+      "mean_delta_weeks": -0.8064516129032258,
+      "ci_low": -6.065322580645161,
+      "ci_high": 4.162096774193544,
+      "wilcoxon": {
+        "statistic": 257.0,
+        "p_value": 0.42997877625788894,
+        "n": 31
+      },
+      "significant": false
+    }
+  },
+  "prob_metrics": {
+    "fusion": {
+      "auc_pr": 0.14671332636140857,
+      "roc_auc": 0.6952305257237753,
+      "brier": 0.02906935224466098,
+      "base_rate": 0.03092755054587903
+    }
+  },
+  "n_events_test_total": 31,
+  "by_method": [
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_network",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.660968660968661,
+      "mean_lead_time": 8.095238095238095,
+      "median_lead_time": 7.0,
+      "mean_lead_time_penalised": 1.566951566951567,
+      "false_alarms_per_series_year": 0.4933810628084925,
+      "n_events": 31,
+      "n_detected": 20
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "fusion",
+      "tier": "fusion",
+      "n_seeds": 3,
+      "sensitivity": 0.6239316239316239,
+      "mean_lead_time": 7.5476190476190474,
+      "median_lead_time": 5.0,
+      "mean_lead_time_penalised": 0.29914529914529914,
+      "false_alarms_per_series_year": 0.49611891359562454,
+      "n_events": 31,
+      "n_detected": 19
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_environment",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.5356125356125356,
+      "mean_lead_time": 8.033333333333333,
+      "median_lead_time": 7.666666666666667,
+      "mean_lead_time_penalised": -1.1566951566951569,
+      "false_alarms_per_series_year": 0.490678784638777,
+      "n_events": 31,
+      "n_detected": 16
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_food",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.5982905982905983,
+      "mean_lead_time": 4.277777777777778,
+      "median_lead_time": 3.8333333333333335,
+      "mean_lead_time_penalised": -2.230769230769231,
+      "false_alarms_per_series_year": 0.49611891359562454,
+      "n_events": 31,
+      "n_detected": 18
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_no_animal",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.48433048433048437,
+      "mean_lead_time": 6.655555555555556,
+      "median_lead_time": 5.166666666666667,
+      "mean_lead_time_penalised": -2.4643874643874644,
+      "false_alarms_per_series_year": 0.49611891359562454,
+      "n_events": 31,
+      "n_detected": 14
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_ewma",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.7236467236467236,
+      "mean_lead_time": -1.3333333333333333,
+      "median_lead_time": -1.8333333333333333,
+      "mean_lead_time_penalised": -3.6324786324786325,
+      "false_alarms_per_series_year": 0.4879627029043558,
+      "n_events": 31,
+      "n_detected": 22
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_farrington",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.5213675213675214,
+      "mean_lead_time": -3.2349206349206345,
+      "median_lead_time": -1.6666666666666667,
+      "mean_lead_time_penalised": -6.715099715099715,
+      "false_alarms_per_series_year": 0.4933810628084925,
+      "n_events": 31,
+      "n_detected": 15
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "ablation_clinical_only",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.25925925925925924,
+      "mean_lead_time": 0.9583333333333334,
+      "median_lead_time": 1.0,
+      "mean_lead_time_penalised": -8.666666666666666,
+      "false_alarms_per_series_year": 0.4933810628084925,
+      "n_events": 31,
+      "n_detected": 7
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_manual",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.19943019943019943,
+      "mean_lead_time": -2.388888888888889,
+      "median_lead_time": -2.1666666666666665,
+      "mean_lead_time_penalised": -10.592592592592593,
+      "false_alarms_per_series_year": 0.28348560217545354,
+      "n_events": 31,
+      "n_detected": 6
+    },
+    {
+      "policy": "matched_far",
+      "budget": 0.5,
+      "method": "baseline_cusum",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.07407407407407407,
+      "mean_lead_time": -8.0,
+      "median_lead_time": -8.0,
+      "mean_lead_time_penalised": -11.703703703703704,
+      "false_alarms_per_series_year": 0.49611891359562454,
+      "n_events": 31,
+      "n_detected": 2
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_network",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.584045584045584,
+      "mean_lead_time": 5.4563492063492065,
+      "median_lead_time": 3.8333333333333335,
+      "mean_lead_time_penalised": -1.0256410256410255,
+      "false_alarms_per_series_year": 0.23451753978147294,
+      "n_events": 31,
+      "n_detected": 17
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "fusion",
+      "tier": "fusion",
+      "n_seeds": 3,
+      "sensitivity": 0.547008547008547,
+      "mean_lead_time": 5.194444444444444,
+      "median_lead_time": 3.1666666666666665,
+      "mean_lead_time_penalised": -1.9430199430199433,
+      "false_alarms_per_series_year": 0.24281816835371248,
+      "n_events": 31,
+      "n_detected": 16
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_environment",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.48433048433048437,
+      "mean_lead_time": 4.655555555555556,
+      "median_lead_time": 3.6666666666666665,
+      "mean_lead_time_penalised": -3.361823361823362,
+      "false_alarms_per_series_year": 0.16353198775018057,
+      "n_events": 31,
+      "n_detected": 14
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_food",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.48433048433048437,
+      "mean_lead_time": 1.888888888888889,
+      "median_lead_time": 0.8333333333333334,
+      "mean_lead_time_penalised": -4.928774928774929,
+      "false_alarms_per_series_year": 0.28109657578013536,
+      "n_events": 31,
+      "n_detected": 14
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_no_animal",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.4102564102564103,
+      "mean_lead_time": 4.722222222222222,
+      "median_lead_time": 3.3333333333333335,
+      "mean_lead_time_penalised": -4.948717948717949,
+      "false_alarms_per_series_year": 0.1988304378499075,
+      "n_events": 31,
+      "n_detected": 12
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_ewma",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.6866096866096866,
+      "mean_lead_time": -4.25,
+      "median_lead_time": -5.333333333333333,
+      "mean_lead_time_penalised": -6.433048433048433,
+      "false_alarms_per_series_year": 0.28065377339512526,
+      "n_events": 31,
+      "n_detected": 21
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_farrington",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.24786324786324787,
+      "mean_lead_time": -3.3333333333333335,
+      "median_lead_time": -4.0,
+      "mean_lead_time_penalised": -9.367521367521368,
+      "false_alarms_per_series_year": 0.2724795043165426,
+      "n_events": 31,
+      "n_detected": 7
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "ablation_clinical_only",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.1111111111111111,
+      "mean_lead_time": 1.25,
+      "median_lead_time": 1.25,
+      "mean_lead_time_penalised": -10.555555555555555,
+      "false_alarms_per_series_year": 0.31080570467099505,
+      "n_events": 31,
+      "n_detected": 3
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_manual",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.17378917378917377,
+      "mean_lead_time": -8.888888888888888,
+      "median_lead_time": -8.666666666666666,
+      "mean_lead_time_penalised": -11.407407407407407,
+      "false_alarms_per_series_year": 0.18556328095219823,
+      "n_events": 31,
+      "n_detected": 5
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.25,
+      "method": "baseline_cusum",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.0,
+      "mean_lead_time": NaN,
+      "median_lead_time": NaN,
+      "mean_lead_time_penalised": -12.0,
+      "false_alarms_per_series_year": 0.28332525331847297,
+      "n_events": 31,
+      "n_detected": 0
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_network",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.660968660968661,
+      "mean_lead_time": 8.222222222222221,
+      "median_lead_time": 7.333333333333333,
+      "mean_lead_time_penalised": 1.6638176638176638,
+      "false_alarms_per_series_year": 0.5836367049478666,
+      "n_events": 31,
+      "n_detected": 20
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "fusion",
+      "tier": "fusion",
+      "n_seeds": 3,
+      "sensitivity": 0.6239316239316239,
+      "mean_lead_time": 8.103174603174603,
+      "median_lead_time": 6.0,
+      "mean_lead_time_penalised": 0.6695156695156695,
+      "false_alarms_per_series_year": 0.5644913910793486,
+      "n_events": 31,
+      "n_detected": 19
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_food",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.6096866096866097,
+      "mean_lead_time": 7.096825396825397,
+      "median_lead_time": 5.666666666666667,
+      "mean_lead_time_penalised": -0.3931623931623931,
+      "false_alarms_per_series_year": 0.6251313381638482,
+      "n_events": 31,
+      "n_detected": 18
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_environment",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.5356125356125356,
+      "mean_lead_time": 8.200000000000001,
+      "median_lead_time": 7.666666666666667,
+      "mean_lead_time_penalised": -1.0455840455840457,
+      "false_alarms_per_series_year": 0.4823585144251307,
+      "n_events": 31,
+      "n_detected": 16
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_ewma",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.7749287749287749,
+      "mean_lead_time": -0.263888888888889,
+      "median_lead_time": -1.6666666666666667,
+      "mean_lead_time_penalised": -2.6438746438746437,
+      "false_alarms_per_series_year": 0.5342284871286208,
+      "n_events": 31,
+      "n_detected": 24
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_no_animal",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.48433048433048437,
+      "mean_lead_time": 6.322222222222222,
+      "median_lead_time": 5.166666666666667,
+      "mean_lead_time_penalised": -2.6495726495726495,
+      "false_alarms_per_series_year": 0.4879053612342282,
+      "n_events": 31,
+      "n_detected": 14
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_farrington",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.547008547008547,
+      "mean_lead_time": -1.957142857142857,
+      "median_lead_time": -1.6666666666666667,
+      "mean_lead_time_penalised": -6.202279202279203,
+      "false_alarms_per_series_year": 0.4987707518775654,
+      "n_events": 31,
+      "n_detected": 16
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "ablation_clinical_only",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.3333333333333333,
+      "mean_lead_time": -0.15000000000000002,
+      "median_lead_time": -2.5,
+      "mean_lead_time_penalised": -8.074074074074074,
+      "false_alarms_per_series_year": 0.5888283451312383,
+      "n_events": 31,
+      "n_detected": 9
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_manual",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.19943019943019943,
+      "mean_lead_time": -2.388888888888889,
+      "median_lead_time": -2.1666666666666665,
+      "mean_lead_time_penalised": -10.592592592592593,
+      "false_alarms_per_series_year": 0.28348560217545354,
+      "n_events": 31,
+      "n_detected": 6
+    },
+    {
+      "policy": "prospective",
+      "budget": 0.5,
+      "method": "baseline_cusum",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.14814814814814814,
+      "mean_lead_time": -8.75,
+      "median_lead_time": -10.5,
+      "mean_lead_time_penalised": -11.518518518518519,
+      "false_alarms_per_series_year": 0.5069683732629519,
+      "n_events": 31,
+      "n_detected": 4
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_ewma",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.9629629629629629,
+      "mean_lead_time": 5.521011396011396,
+      "median_lead_time": 5.5,
+      "mean_lead_time_penalised": 4.8404558404558395,
+      "false_alarms_per_series_year": 1.0357211588173085,
+      "n_events": 31,
+      "n_detected": 30
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_network",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.7492877492877493,
+      "mean_lead_time": 9.217592592592593,
+      "median_lead_time": 10.0,
+      "mean_lead_time_penalised": 4.062678062678063,
+      "false_alarms_per_series_year": 1.1587779235547482,
+      "n_events": 31,
+      "n_detected": 23
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_environment",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.7122507122507122,
+      "mean_lead_time": 10.566137566137565,
+      "median_lead_time": 10.333333333333334,
+      "mean_lead_time_penalised": 4.011396011396012,
+      "false_alarms_per_series_year": 1.0906645472922498,
+      "n_events": 31,
+      "n_detected": 22
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_food",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.7236467236467236,
+      "mean_lead_time": 9.152777777777779,
+      "median_lead_time": 8.666666666666666,
+      "mean_lead_time_penalised": 3.162393162393163,
+      "false_alarms_per_series_year": 1.2929979192823537,
+      "n_events": 31,
+      "n_detected": 22
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "fusion",
+      "tier": "fusion",
+      "n_seeds": 3,
+      "sensitivity": 0.6495726495726496,
+      "mean_lead_time": 10.319444444444445,
+      "median_lead_time": 10.5,
+      "mean_lead_time_penalised": 2.5698005698005697,
+      "false_alarms_per_series_year": 1.1830633740132115,
+      "n_events": 31,
+      "n_detected": 20
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_no_animal",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.5982905982905983,
+      "mean_lead_time": 8.777777777777777,
+      "median_lead_time": 8.333333333333334,
+      "mean_lead_time_penalised": 0.7350427350427351,
+      "false_alarms_per_series_year": 1.1421872788580192,
+      "n_events": 31,
+      "n_detected": 18
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_farrington",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.849002849002849,
+      "mean_lead_time": 3.0083333333333333,
+      "median_lead_time": 2.5,
+      "mean_lead_time_penalised": 0.6866096866096866,
+      "false_alarms_per_series_year": 1.0466539840300821,
+      "n_events": 31,
+      "n_detected": 26
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_manual",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.6467236467236467,
+      "mean_lead_time": 2.1222222222222222,
+      "median_lead_time": 0.3333333333333333,
+      "mean_lead_time_penalised": -2.641025641025641,
+      "false_alarms_per_series_year": 0.7713304306225983,
+      "n_events": 31,
+      "n_detected": 19
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "baseline_cusum",
+      "tier": "baseline",
+      "n_seeds": 3,
+      "sensitivity": 0.9002849002849004,
+      "mean_lead_time": -2.578042328042328,
+      "median_lead_time": -2.6666666666666665,
+      "mean_lead_time_penalised": -3.321937321937322,
+      "false_alarms_per_series_year": 1.1123347957918408,
+      "n_events": 31,
+      "n_detected": 28
+    },
+    {
+      "policy": "prospective",
+      "budget": 1.0,
+      "method": "ablation_clinical_only",
+      "tier": "ablation",
+      "n_seeds": 3,
+      "sensitivity": 0.5071225071225071,
+      "mean_lead_time": -0.5158730158730159,
+      "median_lead_time": -1.1666666666666667,
+      "mean_lead_time_penalised": -5.498575498575499,
+      "false_alarms_per_series_year": 1.2235062155254914,
+      "n_events": 31,
+      "n_detected": 14
+    }
+  ]
+}

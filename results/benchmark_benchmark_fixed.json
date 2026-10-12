@@ -1,0 +1,194 @@
+{
+  "us_states": {
+    "status": "ok",
+    "dataset": "us_states",
+    "regions": 49,
+    "weeks": 360,
+    "adjacency_density": 0.10620574760516452,
+    "events": 342,
+    "events_test": 49,
+    "positives_train": 955,
+    "graph_diagnostics": {
+      "gate": 0.7244215607643127,
+      "relation_weights": {
+        "trade": 0.03350000083446503,
+        "watershed": 0.006899999920278788,
+        "referral": 0.9595999717712402
+      },
+      "lag_weights": {
+        "0": 0.10050000250339508,
+        "4": 0.13979999721050262,
+        "8": 0.40549999475479126,
+        "12": 0.35420000553131104
+      },
+      "epochs_run": 125,
+      "steps_run": 375
+    },
+    "comparisons": {
+      "graph_stgnn_vs_temporal_tcn": {
+        "mean_delta_weeks": 0.3673469387755102,
+        "ci_low": -0.2857142857142857,
+        "ci_high": 1.3877551020408163,
+        "n_paired_events": 49,
+        "significant": false,
+        "wilcoxon_p": 0.44556958472711766
+      },
+      "graph_stgnn_vs_graph_shuffled": {
+        "mean_delta_weeks": -0.2653061224489796,
+        "ci_low": -0.4489795918367347,
+        "ci_high": -0.02040816326530612,
+        "n_paired_events": 49,
+        "significant": false,
+        "wilcoxon_p": 0.9994367473745368
+      }
+    },
+    "prob_metrics": {
+      "temporal_tcn": {
+        "auc_pr": 0.5318622908129222,
+        "roc_auc": 0.9584336604539776,
+        "brier": 0.05806089809384996,
+        "base_rate": 0.058823529411764705
+      },
+      "graph_stgnn": {
+        "auc_pr": 0.4894659046823032,
+        "roc_auc": 0.9518283397542691,
+        "brier": 0.06279054159619811,
+        "base_rate": 0.058823529411764705
+      },
+      "graph_shuffled": {
+        "auc_pr": 0.4668668353275023,
+        "roc_auc": 0.9490153842149103,
+        "brier": 0.06576331380359043,
+        "base_rate": 0.058823529411764705
+      }
+    }
+  },
+  "japan": {
+    "status": "ok",
+    "dataset": "japan",
+    "regions": 47,
+    "weeks": 348,
+    "adjacency_density": 0.09913988229968311,
+    "events": 329,
+    "events_test": 93,
+    "positives_train": 752,
+    "graph_diagnostics": {
+      "gate": 0.5617998838424683,
+      "relation_weights": {
+        "trade": 0.00419999985024333,
+        "watershed": 0.002899999963119626,
+        "referral": 0.992900013923645
+      },
+      "lag_weights": {
+        "0": 0.3361000120639801,
+        "4": 0.25679999589920044,
+        "8": 0.21449999511241913,
+        "12": 0.19269999861717224
+      },
+      "epochs_run": 117,
+      "steps_run": 351
+    },
+    "comparisons": {
+      "graph_stgnn_vs_temporal_tcn": {
+        "mean_delta_weeks": -1.0,
+        "ci_low": -2.4841397849462368,
+        "ci_high": 0.5591397849462365,
+        "n_paired_events": 93,
+        "significant": false,
+        "wilcoxon_p": 0.45401961709043903
+      },
+      "graph_stgnn_vs_graph_shuffled": {
+        "mean_delta_weeks": -2.6129032258064515,
+        "ci_low": -3.6881720430107525,
+        "ci_high": -1.6879032258064532,
+        "n_paired_events": 93,
+        "significant": false,
+        "wilcoxon_p": 0.9999999999999961
+      }
+    },
+    "prob_metrics": {
+      "temporal_tcn": {
+        "auc_pr": 0.8665785069529848,
+        "roc_auc": 0.990214932810818,
+        "brier": 0.07047566741636434,
+        "base_rate": 0.08507718696397942
+      },
+      "graph_stgnn": {
+        "auc_pr": 0.7666726269859269,
+        "roc_auc": 0.9804117227282073,
+        "brier": 0.03635870951229238,
+        "base_rate": 0.08507718696397942
+      },
+      "graph_shuffled": {
+        "auc_pr": 0.6141103650299529,
+        "roc_auc": 0.9587294531731921,
+        "brier": 0.06113726366370423,
+        "base_rate": 0.08507718696397942
+      }
+    }
+  },
+  "chickenpox": {
+    "status": "ok",
+    "dataset": "chickenpox",
+    "regions": 20,
+    "weeks": 521,
+    "adjacency_density": 0.255,
+    "events": 166,
+    "events_test": 33,
+    "positives_train": 400,
+    "graph_diagnostics": {
+      "gate": 0.3733827471733093,
+      "relation_weights": {
+        "trade": 0.49790000915527344,
+        "watershed": 0.08860000222921371,
+        "referral": 0.41350001096725464
+      },
+      "lag_weights": {
+        "0": 0.10999999940395355,
+        "4": 0.24660000205039978,
+        "8": 0.4088999927043915,
+        "12": 0.2345000058412552
+      },
+      "epochs_run": 50,
+      "steps_run": 250
+    },
+    "comparisons": {
+      "graph_stgnn_vs_temporal_tcn": {
+        "mean_delta_weeks": 2.4242424242424243,
+        "ci_low": 0.7878787878787878,
+        "ci_high": 4.454545454545454,
+        "n_paired_events": 33,
+        "significant": true,
+        "wilcoxon_p": 0.0004142572266634747
+      },
+      "graph_stgnn_vs_graph_shuffled": {
+        "mean_delta_weeks": 0.09090909090909091,
+        "ci_low": 0.0,
+        "ci_high": 0.18181818181818182,
+        "n_paired_events": 33,
+        "significant": false,
+        "wilcoxon_p": 0.17185535735031265
+      }
+    },
+    "prob_metrics": {
+      "temporal_tcn": {
+        "auc_pr": 0.3354117272685704,
+        "roc_auc": 0.9065042425300907,
+        "brier": 0.11357122190851796,
+        "base_rate": 0.056402439024390245
+      },
+      "graph_stgnn": {
+        "auc_pr": 0.3188331131359977,
+        "roc_auc": 0.9031956027109501,
+        "brier": 0.13198573579940268,
+        "base_rate": 0.056402439024390245
+      },
+      "graph_shuffled": {
+        "auc_pr": 0.31772149088774776,
+        "roc_auc": 0.9027735328219981,
+        "brier": 0.13446173828568117,
+        "base_rate": 0.056402439024390245
+      }
+    }
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "queries": [
+    "antimicrobial resistance",
+    "antibiotic resistance",
+    "AMR surveillance",
+    "one health",
+    "salmonella resistance",
+    "antibiotic consumption",
+    "MIC bacteria"
+  ],
+  "inclusion_criteria": [
+    "dated",
+    "geographic",
+    "resistance_outcome",
+    "sector_labelled"
+  ],
+  "results": {
+    "antimicrobial resistance": [
+      {
+        "ref": "alitaqishah/global-antimicrobial-resistance-amr-2010-2023",
+        "title": "Global Antimicrobial Resistance (AMR): 2010-2023",
+        "mb": 0.01
+      },
+      {
+        "ref": "mpwolke/cusersmarildownloadsresistpdf",
+        "title": "Antimicrobial resistance, COVID19, US election",
+        "mb": 0.68
+      },
+      {
+        "ref": "nwheeler443/gono-unitigs",
+        "title": "Predicting antibiotic resistance in gonorrhoea",
+        "mb": 2.33
+      },
+      {
+        "ref": "amritpal333/antimicrobial-resistance-data",
+        "title": "Antimicrobial resistance data",
+        "mb": 20.02
+      },
+      {
+        "ref": "adilimadeddinehosni/multi-resistance-antibiotic-susceptibility",
+        "title": "\ud83e\uddec Multi-Resistance Antibiotic Susceptibility",
+        "mb": 0.58
+      },
+      {
+        "ref": "imtkaggleteam/pathogen-detection-salmonella-enterica",
+        "title": "Pathogen Detection | Salmonella Enterica",
+        "mb": 21.67
+      },
+      {
+        "ref": "drscarlat/driams",
+        "title": "DRIAMS - Resistance to Antibiotics",
+        "mb": 8853.91
+      },
+      {
+        "ref": "imtkaggleteam/pandemics-in-world",
+        "title": "Pandemics in World",
+        "mb": 1.43
+      },
+      {
+        "ref": "sajkazmi/cleaned-pathogen-detection-dataset",
+        "title": "Cleaned Pathogen Detection Dataset",
+        "mb": 15.43
+      },
+      {
+        "ref": "vihaankulkarni/antimicrobial-resistance-dataset",
+        "title": "Antimicrobial Resistance Dataset",
+        "mb": 0.01
+      },
+      {
+        "ref": "valeriamaciel/e-coli-resistance-dataset",
+        "title": "E. coli Resistance Dataset",
+        "mb": 3.17
+      },
+      {
+        "ref": "willianoliveiragibin/antibiotic-use-in-livestock",
+        "title": "antibiotic use in livestock",
+        "mb": 0.0
+      },
+      {
+        "ref": "samfenske/euro-resistance",
+        "title": "Antimicrobial Resistance in Europe",
+        "mb": 0.64
+      },
+      {
+        "ref": "hussnainmamoon1/global-antibiotic-resistance-2018-2024-glass",
+        "title": "Global Antibiotic Resistance 2018-2023 | GLASS",
+        "mb": 0.01
+      },
+      {
+        "ref": "alamshihab075/e-coli-data-poultry-and-dairy-in-bangladesh",
+        "title": "E. coli data Poultry and Dairy ",
+        "mb": 0.0
+      },
+      {
+        "ref": "cristiancaniu/salmonella",
+        "title": "Salmonella Antimicrobial Resistance",
+        "mb": 769.61
+      },
+      {
+        "ref": "jiscecseaiml/pseudomonas-aeruginosa",
+        "title": "Pseudomonas aeruginosa Protein",
+        "mb": 0.16
+      },
+      {
+        "ref": "willianoliveiragibin/global-microbial-plasmid",
+        "title": "Global_Microbial_Plasmid",
+        "mb": 0.01
+      },
+      {
+        "ref": "bjoernjostein/ecoli-mic-values",
+        "title": "MIC values of inhibitory peptides against E.coli",
+        "mb": 0.14
+      },
+      {
+        "ref": "willianoliveiragibin/diarrheal-diseases",
+        "title": "Diarrheal Diseases",
+        "mb": 0.3
+      }
+    ],
+    "antibiotic resistance": [
+      {
+        "ref": "nwheeler443/gono-unitigs",
+        "title": "Predicting antibiotic resistance in gonorrhoea",
+        "mb": 2.33
+      },
+      {
+        "ref": "adilimadeddinehosni/multi-resistance-antibiotic-susceptibility",
+        "title": "\ud83e\uddec Multi-Resistance Antibiotic Susceptibility",
+        "mb": 0.58
+      },
+      {
+        "ref": "drscarlat/driams",
+        "title": "DRIAMS - Resistance to Antibiotics",
+        "mb": 8853.91
+      },
+      {
+        "ref": "alitaqishah/global-antimicrobial-resistance-amr-2010-2023",
+        "title": "Global Antimicrobial Resistance (AMR): 2010-2023",
+        "mb": 0.01
+      },
+      {
+        "ref": "sayansh001/microbes-dataset",
+        "title": "Microbes Dataset",
+        "mb": 0.58
+      },
+      {
+        "ref": "hussnainmamoon1/global-antibiotic-resistance-2018-2024-glass",
+        "title": "Global Antibiotic Resistance 2018-2023 | GLASS",
+        "mb": 0.01
+      },
+      {
+        "ref": "valeriamaciel/e-coli-resistance-dataset",
+        "title": "E. coli Resistance Dataset",
+        "mb": 3.17
+      },
+      {
+        "ref": "imtkaggleteam/pathogen-detection-salmonella-enterica",
+        "title": "Pathogen Detection | Salmonella Enterica",
+        "mb": 21.67
+      },
+      {
+        "ref": "mpwolke/cusersmarildownloadsresistpdf",
+        "title": "Antimicrobial resistance, COVID19, US election",
+        "mb": 0.68
+      },
+      {
+        "ref": "meruvakodandasuraj/global-antibiotic-resistance-intelligence-201025",
+        "title": "Global Antibiotic Resistance Intelligence 2010\u201325",
+        "mb": 0.77
+      },
+      {
+        "ref": "alamshihab075/e-coli-data-poultry-and-dairy-in-bangladesh",
+        "title": "E. coli data Poultry and Dairy ",
+        "mb": 0.0
+      },
+      {
+        "ref": "imtkaggleteam/tuberculosis",
+        "title": "Tuberculosis",
+        "mb": 0.18
+      },
+      {
+        "ref": "willianoliveiragibin/antibiotic-use-in-livestock",
+        "title": "antibiotic use in livestock",
+        "mb": 0.0
+      },
+      {
+        "ref": "drscarlat/dzd-data",
+        "title": "GeneResistData",
+        "mb": 0.82
+      },
+      {
+        "ref": "amritpal333/antimicrobial-resistance-data",
+        "title": "Antimicrobial resistance data",
+        "mb": 20.02
+      },
+      {
+        "ref": "nikitamanaenkov/escherichia-coli-bw25113-genome-and-proteome",
+        "title": "Escherichia coli BW25113 Genome & Proteome",
+        "mb": 11.52
+      },
+      {
+        "ref": "jiscecseaiml/pseudomonas-aeruginosa",
+        "title": "Pseudomonas aeruginosa Protein",
+        "mb": 0.16
+      },
+      {
+        "ref": "mehmetakifciftci/icu-sepsis-dataset-xlsx",
+        "title": "ICU Sepsis Dataset.xlsx",
+        "mb": 0.77
+      },
+      {
+        "ref": "bassam165/comprehensive-antibiotic-resistance-database",
+        "title": "Comprehensive Antibiotic Resistance Database",
+        "mb": 1936.69
+      },
+      {
+        "ref": "salmaneunus/antibiotic-resistance-geissen-datset",
+        "title": "antibiotic_resistance-geissen-datset",
+        "mb": 170.79
+      }
+    ],
+    "AMR surveillance": [
+      {
+        "ref": "alitaqishah/global-antimicrobial-resistance-amr-2010-2023",
+        "title": "Global Antimicrobial Resistance (AMR): 2010-2023",
+        "mb": 0.01
+      },
+      {
+        "ref": "sajkazmi/cleaned-pathogen-detection-dataset",
+        "title": "Cleaned Pathogen Detection Dataset",
+        "mb": 15.43
+      },
+      {
+        "ref": "hussnainmamoon1/global-antibiotic-resistance-2018-2024-glass",
+        "title": "Global Antibiotic Resistance 2018-2023 | GLASS",
+        "mb": 0.01
+      },
+      {
+        "ref": "yunusahusseinadeiza/amr-classifier-v2-national-surveillance",
+        "title": "AMR Classifier v2: National Surveillance",
+        "mb": 0.21
+      },
+      {
+        "ref": "meruvakodandasuraj/global-antibiotic-resistance-intelligence-201025",
+        "title": "Global Antibiotic Resistance Intelligence 2010\u201325",
+        "mb": 0.77
+      },
+      {
+        "ref": "willianoliveiragibin/economic-falkland-islands",
+        "title": "economic_Falkland Islands",
+        "mb": 0.01
+      },
+      {
+        "ref": "willianoliveiragibin/economic-aruba",
+        "title": "ECONOMIC_aRUBA",
+        "mb": 0.01
+      },
+      {
+        "ref": "zkskhurram/global-health-security-index-2021",
+        "title": "Global Health Security Index 2021",
+        "mb": 0.18
+      },
+      {
+        "ref": "vihaankulkarni/antimicrobial-resistance-dataset",
+        "title": "Antimicrobial Resistance Dataset",
+        "mb": 0.01
+      },
+      {
+        "ref": "bassam165/comprehensive-antibiotic-resistance-database",
+        "title": "Comprehensive Antibiotic Resistance Database",
+        "mb": 1936.69
+      },
+      {
+        "ref": "astukari/global-health-observatory-national-amr-capacity",
+        "title": "Global Health Observatory - National AMR Capacity",
+        "mb": 0.0
+      },
+      {
+        "ref": "thedevastator/japan-who-health-indicators",
+        "title": "Japan WHO Health Indicators",
+        "mb": 0.7
+      },
+      {
+        "ref": "acharyakamal/voice-control-robot-using-arduino-management",
+        "title": "VOICE CONTROL ROBOT USING ARDUINO MANAGEMENT.",
+        "mb": 0.71
+      }
+    ],
+    "one health": [
+      {
+        "ref": "willianoliveiragibin/lifetime-risk-of-depression",
+        "title": "lifetime risk of depression?",
+        "mb": 0.0
+      },
+      {
+        "ref": "suchintikasarkar/sentiment-analysis-for-mental-health",
+        "title": "Sentiment Analysis for Mental Health",
+        "mb": 11.59
+      },
+      {
+        "ref": "imtkaggleteam/mental-health",
+        "title": "Mental Health",
+        "mb": 0.35
+      },
+      {
+        "ref": "cdc/behavioral-risk-factor-surveillance-system",
+        "title": "Behavioral Risk Factor Surveillance System",
+        "mb": 434.51
+      },
+      {
+        "ref": "reihanenamdari/mental-health-corpus",
+        "title": "Mental Health Corpus",
+        "mb": 4.97
+      },
+      {
+        "ref": "catherinerasgaitis/mxmh-survey-results",
+        "title": "Music & Mental Health Survey Results",
+        "mb": 0.02
+      },
+      {
+        "ref": "andrewmvd/face-mask-detection",
+        "title": "Face Mask Detection",
+        "mb": 416.97
+      },
+      {
+        "ref": "nhs/general-practice-prescribing-data",
+        "title": "General Practice Prescribing Data",
+        "mb": 1735.16
+      },
+      {
+        "ref": "kumarajarshi/life-expectancy-who",
+        "title": "Life Expectancy (WHO)",
+        "mb": 0.12
+      },
+      {
+        "ref": "twinkle0705/mental-health-and-suicide-rates",
+        "title": "Mental Health and Suicide Rates",
+        "mb": 0.02
+      },
+      {
+        "ref": "shivan118/healthcare-analytics",
+        "title": "AV : Healthcare Analytics",
+        "mb": 1.59
+      },
+      {
+        "ref": "iamsouravbanerjee/cause-of-deaths-around-the-world",
+        "title": "Cause of Deaths around the World (Historical Data)",
+        "mb": 0.33
+      },
+      {
+        "ref": "sshikamaru/glaucoma-detection",
+        "title": "Glaucoma Detection",
+        "mb": 421.04
+      },
+      {
+        "ref": "mjshri23/life-expectancy-and-socio-economic-world-bank",
+        "title": "Life expectancy & Socio-Economic (world bank)",
+        "mb": 0.17
+      },
+      {
+        "ref": "jocelyndumlao/cardiovascular-disease-dataset",
+        "title": "Cardiovascular_Disease_Dataset",
+        "mb": 0.42
+      },
+      {
+        "ref": "therohk/india-headlines-news-dataset",
+        "title": "India News Headlines Dataset",
+        "mb": 97.61
+      },
+      {
+        "ref": "alitaqishah/global-mental-health-crisis-index-2026",
+        "title": "Global Mental Health Crisis Index 2026",
+        "mb": 0.01
+      },
+      {
+        "ref": "theworldbank/health-nutrition-and-population-statistics",
+        "title": "Health Nutrition and Population Statistics",
+        "mb": 14.65
+      },
+      {
+        "ref": "meganrisdal/la-county-restaurant-inspections-and-violations",
+        "title": "LA County Restaurant Inspections and Violations",
+        "mb": 19.59
+      },
+      {
+        "ref": "adityaramachandran27/world-air-quality-index-by-city-and-coordinates",
+        "title": "World Air Quality Index by City and Coordinates",
+        "mb": 0.38
+      }
+    ],
+    "salmonella resistance": [
+      {
+        "ref": "imtkaggleteam/pathogen-detection-salmonella-enterica",
+        "title": "Pathogen Detection | Salmonella Enterica",
+        "mb": 21.67
+      },
+      {
+        "ref": "sajkazmi/cleaned-pathogen-detection-dataset",
+        "title": "Cleaned Pathogen Detection Dataset",
+        "mb": 15.43
+      },
+      {
+        "ref": "cristiancaniu/salmonella",
+        "title": "Salmonella Antimicrobial Resistance",
+        "mb": 769.61
+      },
+      {
+        "ref": "amirjdai/pathogen-detection-salmonella-enterica",
+        "title": "Pathogen Detection | Salmonella Enterica",
+        "mb": 21.67
+      },
+      {
+        "ref": "siukeitin/tps022022-reference-fbc-spectra",
+        "title": "TPS022022 Reference FBC Spectra",
+        "mb": 0.04
+      },
+      {
+        "ref": "willianoliveiragibin/diarrheal-diseases",
+        "title": "Diarrheal Diseases",
+        "mb": 0.3
+      }
+    ],
+    "antibiotic consumption": [
+      {
+        "ref": "alitaqishah/global-antimicrobial-resistance-amr-2010-2023",
+        "title": "Global Antimicrobial Resistance (AMR): 2010-2023",
+        "mb": 0.01
+      },
+      {
+        "ref": "hussnainmamoon1/global-antibiotic-resistance-2018-2024-glass",
+        "title": "Global Antibiotic Resistance 2018-2023 | GLASS",
+        "mb": 0.01
+      },
+      {
+        "ref": "patricklford/water-and-air-quality",
+        "title": "Water Quality -  Every Drop Matters.",
+        "mb": 0.29
+      },
+      {
+        "ref": "lameesmohammad/unique-70-cocoa-chocolate-improves-health",
+        "title": "Cocoa chocolate and health",
+        "mb": 0.0
+      },
+      {
+        "ref": "legendxt/who-glass-amr-ecoli-panel",
+        "title": "WHO GLASS AMR E.coli 3GC Panel 2016-2022",
+        "mb": 0.03
+      },
+      {
+        "ref": "willianoliveiragibin/antibiotic-use-in-livestock-in-europe",
+        "title": "Antibiotic use in livestock in Europe",
+        "mb": 0.0
+      }
+    ],
+    "MIC bacteria": [
+      {
+        "ref": "nwheeler443/gono-unitigs",
+        "title": "Predicting antibiotic resistance in gonorrhoea",
+        "mb": 2.33
+      },
+      {
+        "ref": "bjoernjostein/ecoli-mic-values",
+        "title": "MIC values of inhibitory peptides against E.coli",
+        "mb": 0.14
+      },
+      {
+        "ref": "quehayrich/nanoantimicrobialdb",
+        "title": "NanoAntimicrobialDB",
+        "mb": 0.01
+      },
+      {
+        "ref": "adarsh1907/bacteria-vs-fungi-vs-other-microscopic-images",
+        "title": "Bacteria vs Fungi vs Other Microscopic Images",
+        "mb": 9577.9
+      }
+    ]
+  },
+  "verdicts": {
+    "legendxt/who-glass-amr-ecoli-panel": [
+      "pointer",
+      "Carries authentic WHO extracts (IND_CODE, GLASSAMC_TC, M49 geo codes). Its value was revealing the WHO indicator codes; we pull from the WHO GHO API directly instead, for provenance. See amrews/data/glass.py."
+    ],
+    "hussnainmamoon1/global-antibiotic-resistance-2018-2024-glass": [
+      "excluded",
+      "Fails provenance. Narrative free-text columns ('Overuse in community drives resistance'), editorial trend_direction fields and suspiciously round values across only 138 rows. Presented as WHO GLASS but does not look like an authentic extract. Not used."
+    ],
+    "drscarlat/driams": [
+      "out_of_scope",
+      "Real and well published (Weis et al., Nature Medicine 2022), but 8.85 GB of MALDI-TOF spectra, one file per isolate, for spectrum-to-resistance prediction. Single-sector clinical data for a different problem."
+    ],
+    "cristiancaniu/salmonella": [
+      "redundant",
+      "769 MB, almost certainly a mirror of NCBI Pathogen Detection Salmonella, which we fetch at source and fresher (858 MB, current snapshot)."
+    ],
+    "willianoliveiragibin/antibiotic-use-in-livestock-in-europe": [
+      "excluded",
+      "Malformed single fixed-width column; titled 'Europe' but contains Afghanistan, Albania, Algeria. Provenance unclear."
+    ],
+    "astukari/global-health-observatory-national-amr-capacity": [
+      "duplicate_of_source",
+      "24 rows of WHO region-year GLASS site counts, available directly from the GHO API."
+    ]
+  }
+}

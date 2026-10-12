@@ -1,0 +1,22 @@
+# AMR-OHEWS prototype -- pinned for reproducibility (Python 3.13)
+#
+# torch: the CUDA variant is selected by index URL, not by version. The default
+# PyPI wheel is built for sm_75 and newer and will report an older GPU as
+# available and then fail inside the first convolution. On Volta (V100, sm_70)
+# install with:
+#     pip install --index-url https://download.pytorch.org/whl/cu126 torch==2.14.0
+# `amrews.models.temporal.default_device()` checks the card's compute capability
+# against the build's architecture list and falls back to CPU rather than
+# crashing, so a plain `pip install -r requirements.txt` always works.
+numpy>=2.1,<2.3
+pandas>=2.2,<3
+scipy>=1.14,<1.16
+scikit-learn>=1.5,<1.8
+statsmodels>=0.14.4,<0.15
+matplotlib>=3.9,<4
+plotly>=5.22,<6
+streamlit>=1.36,<2
+shap>=0.46,<0.48
+torch==2.14.0
+requests>=2.31
+python-docx>=1.1

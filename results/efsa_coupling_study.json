@@ -1,0 +1,916 @@
+{
+  "n_pairs": 97,
+  "n_positive": 78,
+  "median_rho": 0.316,
+  "sign_test_p": 5.767114253463714e-10,
+  "n_significant_positive": 16,
+  "countries": [
+    "Austria",
+    "Belgium",
+    "Bulgaria",
+    "Croatia",
+    "Cyprus",
+    "Czechia",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "Iceland",
+    "Ireland",
+    "Italy",
+    "Latvia",
+    "Lithuania",
+    "Luxembourg",
+    "Malta",
+    "Netherlands",
+    "Norway",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Slovakia",
+    "Slovenia",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "United Kingdom (Northern Ireland)"
+  ],
+  "findings": [
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Tetracycline",
+      "population": "Turkeys",
+      "n_countries": 8,
+      "spearman_rho": 0.881,
+      "p_value": 0.0038503204637324014
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Ciprofloxacin",
+      "population": "Broilers",
+      "n_countries": 25,
+      "spearman_rho": 0.763,
+      "p_value": 9.10769033263423e-06
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Chloramphenicol",
+      "population": "Pigs",
+      "n_countries": 10,
+      "spearman_rho": 0.76,
+      "p_value": 0.010758005132716318
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Ampicillin",
+      "population": "Pigs",
+      "n_countries": 10,
+      "spearman_rho": 0.738,
+      "p_value": 0.01485220587899062
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Ciprofloxacin",
+      "population": "Turkeys",
+      "n_countries": 10,
+      "spearman_rho": 0.721,
+      "p_value": 0.018573155089460208
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Infantis",
+      "antimicrobial": "Trimethoprim",
+      "population": "Broilers",
+      "n_countries": 10,
+      "spearman_rho": 0.717,
+      "p_value": 0.019528343138302953
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Nalidixic acid",
+      "population": "Broilers",
+      "n_countries": 13,
+      "spearman_rho": 0.709,
+      "p_value": 0.006681784135857957
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Trimethoprim",
+      "population": "Broilers",
+      "n_countries": 8,
+      "spearman_rho": 0.699,
+      "p_value": 0.05382502183511067
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Gentamicin",
+      "population": "Broilers",
+      "n_countries": 11,
+      "spearman_rho": 0.698,
+      "p_value": 0.016891661840771573
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Nalidixic acid",
+      "population": "Laying hens",
+      "n_countries": 9,
+      "spearman_rho": 0.695,
+      "p_value": 0.03768829245270154
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Erythromycin",
+      "population": "Turkeys",
+      "n_countries": 8,
+      "spearman_rho": 0.69,
+      "p_value": 0.057990318164572716
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Ciprofloxacin",
+      "population": "Turkeys",
+      "n_countries": 8,
+      "spearman_rho": 0.667,
+      "p_value": 0.07098765432098751
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Tetracycline",
+      "population": "Broilers",
+      "n_countries": 15,
+      "spearman_rho": 0.646,
+      "p_value": 0.009214550689979985
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Chloramphenicol",
+      "population": "Turkeys",
+      "n_countries": 9,
+      "spearman_rho": 0.644,
+      "p_value": 0.06117679930250166
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Tetracycline",
+      "population": "Broilers",
+      "n_countries": 25,
+      "spearman_rho": 0.628,
+      "p_value": 0.0007822870463966486
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Infantis",
+      "antimicrobial": "Sulfamethoxazole",
+      "population": "Broilers",
+      "n_countries": 8,
+      "spearman_rho": 0.595,
+      "p_value": 0.11952980613879259
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Ampicillin",
+      "population": "Laying hens",
+      "n_countries": 12,
+      "spearman_rho": 0.587,
+      "p_value": 0.04464119311306859
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Gentamicin",
+      "population": "Cattle",
+      "n_countries": 10,
+      "spearman_rho": 0.581,
+      "p_value": 0.07797078159747606
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Erythromycin",
+      "population": "Cattle",
+      "n_countries": 10,
+      "spearman_rho": 0.576,
+      "p_value": 0.0814524342369995
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Tetracycline",
+      "population": "Turkeys",
+      "n_countries": 10,
+      "spearman_rho": 0.576,
+      "p_value": 0.08155281477260236
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Ampicillin",
+      "population": "Turkeys",
+      "n_countries": 10,
+      "spearman_rho": 0.564,
+      "p_value": 0.08972402831709125
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Ciprofloxacin",
+      "population": "Cattle",
+      "n_countries": 10,
+      "spearman_rho": 0.552,
+      "p_value": 0.09840117666963498
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Erythromycin",
+      "population": "Broilers",
+      "n_countries": 16,
+      "spearman_rho": 0.551,
+      "p_value": 0.026915675373282637
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Colistin",
+      "population": "Broilers",
+      "n_countries": 11,
+      "spearman_rho": 0.549,
+      "p_value": 0.080043500042613
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Infantis",
+      "antimicrobial": "Cefotaxime",
+      "population": "Broilers",
+      "n_countries": 11,
+      "spearman_rho": 0.539,
+      "p_value": 0.08684229054535089
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Ciprofloxacin",
+      "population": "Pigs",
+      "n_countries": 19,
+      "spearman_rho": 0.533,
+      "p_value": 0.018696680998711242
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Tetracycline",
+      "population": "Broilers",
+      "n_countries": 8,
+      "spearman_rho": 0.517,
+      "p_value": 0.18973763943959596
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Gentamicin",
+      "population": "Pigs",
+      "n_countries": 12,
+      "spearman_rho": 0.509,
+      "p_value": 0.09138420165178837
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Tetracycline",
+      "population": "Pigs",
+      "n_countries": 18,
+      "spearman_rho": 0.48,
+      "p_value": 0.04386464036882083
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Ampicillin",
+      "population": "Laying hens",
+      "n_countries": 18,
+      "spearman_rho": 0.477,
+      "p_value": 0.045554802652706616
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Trimethoprim",
+      "population": "Turkeys",
+      "n_countries": 9,
+      "spearman_rho": 0.475,
+      "p_value": 0.1966960523493909
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Infantis",
+      "antimicrobial": "Ceftazidime",
+      "population": "Broilers",
+      "n_countries": 11,
+      "spearman_rho": 0.472,
+      "p_value": 0.14275619048457344
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Colistin",
+      "population": "Laying hens",
+      "n_countries": 8,
+      "spearman_rho": 0.467,
+      "p_value": 0.24326991663399547
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Trimethoprim",
+      "population": "Laying hens",
+      "n_countries": 15,
+      "spearman_rho": 0.461,
+      "p_value": 0.08373377896191635
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Nalidixic acid",
+      "population": "Laying hens",
+      "n_countries": 11,
+      "spearman_rho": 0.436,
+      "p_value": 0.17966487658001123
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Ciprofloxacin",
+      "population": "Broilers",
+      "n_countries": 16,
+      "spearman_rho": 0.435,
+      "p_value": 0.09195235850572929
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Ceftazidime",
+      "population": "Pigs",
+      "n_countries": 10,
+      "spearman_rho": 0.419,
+      "p_value": 0.22801177932596048
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Gentamicin",
+      "population": "Turkeys",
+      "n_countries": 9,
+      "spearman_rho": 0.418,
+      "p_value": 0.2631364567011115
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Infantis",
+      "antimicrobial": "Tetracycline",
+      "population": "Broilers",
+      "n_countries": 11,
+      "spearman_rho": 0.418,
+      "p_value": 0.20057021703405067
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Ceftazidime",
+      "population": "Turkeys",
+      "n_countries": 10,
+      "spearman_rho": 0.407,
+      "p_value": 0.24255674651066567
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Nalidixic acid",
+      "population": "Pigs",
+      "n_countries": 9,
+      "spearman_rho": 0.402,
+      "p_value": 0.2838999763379956
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Chloramphenicol",
+      "population": "Laying hens",
+      "n_countries": 11,
+      "spearman_rho": 0.402,
+      "p_value": 0.22056009842202337
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Tetracycline",
+      "population": "Laying hens",
+      "n_countries": 11,
+      "spearman_rho": 0.388,
+      "p_value": 0.23805292410010845
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Sulfamethoxazole",
+      "population": "Laying hens",
+      "n_countries": 9,
+      "spearman_rho": 0.388,
+      "p_value": 0.3024418062033647
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Tetracycline",
+      "population": "Turkeys",
+      "n_countries": 9,
+      "spearman_rho": 0.367,
+      "p_value": 0.33173980143301507
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. coli",
+      "antimicrobial": "Erythromycin",
+      "population": "Pigs",
+      "n_countries": 19,
+      "spearman_rho": 0.361,
+      "p_value": 0.1292528170374198
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Sulfamethoxazole",
+      "population": "Laying hens",
+      "n_countries": 12,
+      "spearman_rho": 0.35,
+      "p_value": 0.2652387868927897
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Chloramphenicol",
+      "population": "Broilers",
+      "n_countries": 19,
+      "spearman_rho": 0.338,
+      "p_value": 0.15665813188188846
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Tigecycline",
+      "population": "Broilers",
+      "n_countries": 13,
+      "spearman_rho": 0.316,
+      "p_value": 0.292266663829682
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Trimethoprim",
+      "population": "Broilers",
+      "n_countries": 17,
+      "spearman_rho": 0.312,
+      "p_value": 0.22272609441774532
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Nalidixic acid",
+      "population": "Pigs",
+      "n_countries": 13,
+      "spearman_rho": 0.303,
+      "p_value": 0.3142085754056801
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Tetracycline",
+      "population": "Cattle",
+      "n_countries": 10,
+      "spearman_rho": 0.298,
+      "p_value": 0.4032038726329136
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Tigecycline",
+      "population": "Pigs",
+      "n_countries": 8,
+      "spearman_rho": 0.295,
+      "p_value": 0.4788649090484556
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Cefotaxime",
+      "population": "Turkeys",
+      "n_countries": 10,
+      "spearman_rho": 0.291,
+      "p_value": 0.4146374694365895
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Gentamicin",
+      "population": "Pigs",
+      "n_countries": 10,
+      "spearman_rho": 0.288,
+      "p_value": 0.42031228542220656
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Tigecycline",
+      "population": "Laying hens",
+      "n_countries": 9,
+      "spearman_rho": 0.286,
+      "p_value": 0.4555686092508525
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Trimethoprim",
+      "population": "Pigs",
+      "n_countries": 10,
+      "spearman_rho": 0.255,
+      "p_value": 0.47649345335133597
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Gentamicin",
+      "population": "Broilers",
+      "n_countries": 8,
+      "spearman_rho": 0.254,
+      "p_value": 0.5445820540219957
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Gentamicin",
+      "population": "Laying hens",
+      "n_countries": 17,
+      "spearman_rho": 0.252,
+      "p_value": 0.32835409088228495
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Infantis",
+      "antimicrobial": "Ampicillin",
+      "population": "Broilers",
+      "n_countries": 11,
+      "spearman_rho": 0.236,
+      "p_value": 0.4840911622253965
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Colistin",
+      "population": "Pigs",
+      "n_countries": 11,
+      "spearman_rho": 0.234,
+      "p_value": 0.48902475281051927
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Ampicillin",
+      "population": "Pigs",
+      "n_countries": 21,
+      "spearman_rho": 0.218,
+      "p_value": 0.34188732660522514
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Tetracycline",
+      "population": "Pigs",
+      "n_countries": 18,
+      "spearman_rho": 0.203,
+      "p_value": 0.4184467334719628
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Chloramphenicol",
+      "population": "Laying hens",
+      "n_countries": 15,
+      "spearman_rho": 0.188,
+      "p_value": 0.5017015223264927
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Sulfamethoxazole",
+      "population": "Broilers",
+      "n_countries": 15,
+      "spearman_rho": 0.186,
+      "p_value": 0.5075409629336737
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Tetracycline",
+      "population": "Laying hens",
+      "n_countries": 15,
+      "spearman_rho": 0.184,
+      "p_value": 0.5113195510598074
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Cefotaxime",
+      "population": "Pigs",
+      "n_countries": 10,
+      "spearman_rho": 0.176,
+      "p_value": 0.6262542806597817
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Sulfamethoxazole",
+      "population": "Pigs",
+      "n_countries": 14,
+      "spearman_rho": 0.152,
+      "p_value": 0.6047905984521367
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Azithromycin",
+      "population": "Broilers",
+      "n_countries": 15,
+      "spearman_rho": 0.085,
+      "p_value": 0.7626188579869292
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Ceftazidime",
+      "population": "Broilers",
+      "n_countries": 23,
+      "spearman_rho": 0.06,
+      "p_value": 0.7872853276251065
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Gentamicin",
+      "population": "Pigs",
+      "n_countries": 20,
+      "spearman_rho": 0.056,
+      "p_value": 0.8142679125602916
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Infantis",
+      "antimicrobial": "Gentamicin",
+      "population": "Broilers",
+      "n_countries": 10,
+      "spearman_rho": 0.053,
+      "p_value": 0.8847323005931714
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Ampicillin",
+      "population": "Broilers",
+      "n_countries": 23,
+      "spearman_rho": 0.052,
+      "p_value": 0.8123166416202421
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Infantis",
+      "antimicrobial": "Chloramphenicol",
+      "population": "Broilers",
+      "n_countries": 10,
+      "spearman_rho": 0.047,
+      "p_value": 0.8973259371090625
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Gentamicin",
+      "population": "Broilers",
+      "n_countries": 21,
+      "spearman_rho": 0.046,
+      "p_value": 0.8416445618659304
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Azithromycin",
+      "population": "Pigs",
+      "n_countries": 8,
+      "spearman_rho": 0.041,
+      "p_value": 0.9227639270950978
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Chloramphenicol",
+      "population": "Pigs",
+      "n_countries": 19,
+      "spearman_rho": 0.031,
+      "p_value": 0.9006628652897235
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Tigecycline",
+      "population": "Laying hens",
+      "n_countries": 10,
+      "spearman_rho": 0.009,
+      "p_value": 0.9799327879079045
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Erythromycin",
+      "population": "Turkeys",
+      "n_countries": 10,
+      "spearman_rho": -0.032,
+      "p_value": 0.9308321550033514
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Tigecycline",
+      "population": "Pigs",
+      "n_countries": 13,
+      "spearman_rho": -0.077,
+      "p_value": 0.8032882644539082
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Chloramphenicol",
+      "population": "Broilers",
+      "n_countries": 8,
+      "spearman_rho": -0.083,
+      "p_value": 0.8451363719168774
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Gentamicin",
+      "population": "Turkeys",
+      "n_countries": 9,
+      "spearman_rho": -0.087,
+      "p_value": 0.8238015497960072
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Erythromycin",
+      "population": "Broilers",
+      "n_countries": 25,
+      "spearman_rho": -0.089,
+      "p_value": 0.6706121916692784
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Ceftazidime",
+      "population": "Laying hens",
+      "n_countries": 18,
+      "spearman_rho": -0.096,
+      "p_value": 0.703345470681416
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Sulfamethoxazole",
+      "population": "Turkeys",
+      "n_countries": 8,
+      "spearman_rho": -0.119,
+      "p_value": 0.7788857260523797
+    },
+    {
+      "organism": "Campylobacter",
+      "serovar": "C. jejuni",
+      "antimicrobial": "Gentamicin",
+      "population": "Broilers",
+      "n_countries": 19,
+      "spearman_rho": -0.124,
+      "p_value": 0.6123670160870318
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Cefotaxime",
+      "population": "Laying hens",
+      "n_countries": 18,
+      "spearman_rho": -0.145,
+      "p_value": 0.5665050167324863
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Cefotaxime",
+      "population": "Pigs",
+      "n_countries": 21,
+      "spearman_rho": -0.156,
+      "p_value": 0.49835652019352894
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Sulfamethoxazole",
+      "population": "Pigs",
+      "n_countries": 9,
+      "spearman_rho": -0.159,
+      "p_value": 0.6828398157150526
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Ceftazidime",
+      "population": "Pigs",
+      "n_countries": 21,
+      "spearman_rho": -0.172,
+      "p_value": 0.4546963205826462
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Azithromycin",
+      "population": "Pigs",
+      "n_countries": 13,
+      "spearman_rho": -0.196,
+      "p_value": 0.5206833673496145
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Trimethoprim",
+      "population": "Laying hens",
+      "n_countries": 11,
+      "spearman_rho": -0.202,
+      "p_value": 0.5517301304599952
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Tetracycline",
+      "population": "Broilers",
+      "n_countries": 19,
+      "spearman_rho": -0.234,
+      "p_value": 0.33427322677372984
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Cefotaxime",
+      "population": "Broilers",
+      "n_countries": 22,
+      "spearman_rho": -0.248,
+      "p_value": 0.26656708604031076
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. Enteritidis",
+      "antimicrobial": "Ampicillin",
+      "population": "Broilers",
+      "n_countries": 8,
+      "spearman_rho": -0.265,
+      "p_value": 0.5259312138221713
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "Salmonella spp.",
+      "antimicrobial": "Trimethoprim",
+      "population": "Pigs",
+      "n_countries": 18,
+      "spearman_rho": -0.292,
+      "p_value": 0.23960176390544208
+    },
+    {
+      "organism": "Salmonella",
+      "serovar": "S. monophasic",
+      "antimicrobial": "Tetracycline",
+      "population": "Pigs",
+      "n_countries": 10,
+      "spearman_rho": -0.328,
+      "p_value": 0.35441832701832526
+    }
+  ],
+  "resolution_caveat": "Only two EU Summary Report annex sets are published in machine-readable form, each holding a single year, so no lead-lag analysis is possible on this source. This is a cross-sectional coupling test across Member States: a necessary but not sufficient condition for the temporal structure an early-warning system needs."
+}

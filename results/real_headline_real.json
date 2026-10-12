@@ -1,0 +1,57 @@
+{
+  "comparisons": {
+    "0.25": {
+      "vs": "baseline_farrington",
+      "budget": 0.25,
+      "n_paired_events": 74,
+      "mean_delta_quarters": -5.162162162162162,
+      "ci_low": -6.77027027027027,
+      "ci_high": -3.418918918918919,
+      "significant": false,
+      "wilcoxon": {
+        "statistic": 605.0,
+        "p_value": 0.9999880812616294,
+        "n": 74
+      }
+    },
+    "0.5": {
+      "vs": "baseline_farrington",
+      "budget": 0.5,
+      "n_paired_events": 74,
+      "mean_delta_quarters": -2.445945945945946,
+      "ci_low": -4.271283783783784,
+      "ci_high": -0.5675675675675675,
+      "significant": false,
+      "wilcoxon": {
+        "statistic": 1073.5,
+        "p_value": 0.9549742024631106,
+        "n": 74
+      }
+    },
+    "1.0": {
+      "vs": "baseline_farrington",
+      "budget": 1.0,
+      "n_paired_events": 74,
+      "mean_delta_quarters": -1.8513513513513513,
+      "ci_low": -3.675675675675676,
+      "ci_high": 0.09493243243243059,
+      "significant": false,
+      "wilcoxon": {
+        "statistic": 1000.0,
+        "p_value": 0.9818818418027668,
+        "n": 74
+      }
+    }
+  },
+  "prob_metrics": {
+    "auc_pr": 0.11197795911284864,
+    "roc_auc": 0.595697925996947,
+    "brier": 0.08155918289211916,
+    "base_rate": 0.08841354723707665
+  },
+  "n_series": 221,
+  "n_countries": 17,
+  "n_events": 444,
+  "n_events_test": 74,
+  "label_caveat": "Emergence is defined as a sustained rise in the observed human clinical series -- the very signal the clinical-only baselines are designed to detect. The comparison is therefore biased in favour of the baselines, and any One Health advantage reported here is a conservative estimate."
+}

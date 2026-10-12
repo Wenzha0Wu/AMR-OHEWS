@@ -1,0 +1,18 @@
+# Python environment and caches (`make setup` recreates .venv)
+.venv/
+__pycache__/
+*.pyc
+
+# Raw downloads: ~1.3 GB, several files exceed GitHub's 100 MB limit.
+# The processed panels in data/processed/ are committed instead.
+data/raw/
+
+# LaTeX intermediates (build_docs.py normally deletes these)
+docs/*.aux
+docs/*.log
+docs/*.out
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/

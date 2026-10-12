@@ -1,0 +1,33 @@
+Group Project Presentation
+
+Students must prepare a comprehensive group presentation that includes:
+
+• An introduction to their chosen topic.
+
+• The methodology employed - AI Methods/Tools/ Techniques
+
+• Results obtained.
+
+• A discussion on the implications of their work.
+
+• Ethical considerations and potential societal impact of their project.
+
+Implementation
+
+• Develop their AI project using suitable tools, algorithms, and datasets.
+
+• Utilize existing AI frameworks or libraries, or pseudo coding. It is encouraged to build a working system and visualization panel for the showcase. 
+
+• Document their development process, highlighting challenges faced and solutions implemented.
+
+
+Grading will be assessed based on:
+
+1. Problem framing and Relevance
+
+2. AI Integration and Understanding
+
+3. Methodology/ Tool Evaluation
+
+4. Interdisciplinary and Ethical Insight
+

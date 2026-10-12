@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "states": 20,
+  "months": 334,
+  "series": 260,
+  "events": 286,
+  "events_test": 24,
+  "train_rows": 31408,
+  "valid_rows": 12246,
+  "comparisons": {
+    "temporal_tcn_vs_fusion": {
+      "mean_delta_months": -2.6666666666666665,
+      "ci_low": -5.458333333333333,
+      "ci_high": -0.375,
+      "n_paired_events": 24,
+      "significant": false
+    },
+    "graph_stgnn_vs_temporal_tcn": {
+      "mean_delta_months": -2.4166666666666665,
+      "ci_low": -4.958333333333333,
+      "ci_high": -0.375,
+      "n_paired_events": 24,
+      "significant": false
+    },
+    "fusion_vs_baseline_ewma": {
+      "mean_delta_months": 0.9583333333333334,
+      "ci_low": -4.751041666666667,
+      "ci_high": 6.791666666666667,
+      "n_paired_events": 24,
+      "significant": false
+    }
+  },
+  "graph_diagnostics": {
+    "gate": 0.7514410614967346,
+    "relation_weights": {
+      "border": 0.019899999722838402,
+      "two_step": 0.9782999753952026,
+      "uniform": 0.0017999999690800905
+    },
+    "lag_weights": {
+      "0": 0.0340999998152256,
+      "4": 0.1509999930858612,
+      "8": 0.4334000051021576,
+      "12": 0.3815999925136566
+    },
+    "epochs_run": 30,
+    "steps_run": 1230
+  }
+}
