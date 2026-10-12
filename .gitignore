@@ -16,3 +16,6 @@ docs/*.out
 .DS_Store
 .vscode/
 .idea/
+
+# Dashboard server logs
+.dashboard_*.log

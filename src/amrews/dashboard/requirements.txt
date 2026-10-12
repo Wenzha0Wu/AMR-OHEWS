@@ -1,0 +1,8 @@
+# Dashboard-only dependencies, used by Streamlit Community Cloud (it reads the
+# requirements.txt next to the entrypoint before the repo-root one). The app
+# only reads precomputed files in results/, so torch, shap, sklearn etc. are
+# not needed to serve it. Full research environment: ../../../requirements.txt
+streamlit>=1.36,<2
+pandas>=2.2,<3
+numpy>=2.1,<2.3
+plotly>=5.22,<6
